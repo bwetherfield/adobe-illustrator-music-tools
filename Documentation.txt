@@ -1,0 +1,42 @@
+Documentation.txt
+For this: Adobe Illustrator Music Notation Add-ons package
+Copyright Ben Wetherfield 2014
+
+This is the first port of call for getting to grips with this Adobe Illustrator add-on
+package.
+
+Adobe Illustrator or Illustrator will always refer to Adobe Illustrator CC 2014, the 
+free trial of which can be downloaded from the Adobe website.
+
+A NOTE ABOUT COMPATIBILITY: .scpt and .app files in the Scripts folder will only run
+on Mac operating systems. They use the AppleScript language, which is not compatible
+with Windows. .jsx files run on both (and other) operating systems. AppleScript 
+functionality could ultimately be translated to VBscript for use on Windows.
+
+What purpose does this package serve?
+Non-conventional music notation calls for more design capability and more flexibility
+than most music notation software packages allow. In itself, however, Illustrator is
+quite a blank slate, and does not provide many features that lend themselves directly
+to music notation. This package provides a means of setting up the user for writing
+music agilely using Illustrator.
+
+Included:
+A handtool-style plug-in for drawing hairpins (crescendi, diminuendi etc.)
+A small set of defaults to reinstall into Illustrator to make other features run
+	more smoothly
+A set of scripts that interact directly with Illustrator (for musically useful
+	outcomes!)
+	
+More information about the features and how to use them is included (in .txt files) in
+the relevant folders that house each feature as part of this package.
+
+Where next?
+Read the .txt files found in the Add to Illustrator folder for information on how to
+update Illustrator for the purposes of this package and using Illustrator for musical
+notation. Start with the Default Pages, Brushes subfolder, then move to the Tool Plug-in
+subfolder.
+
+Head to the Scripts folder next for more music notation functionality. Read the .txt file
+for details.
+
+Peruse source files and music notation PDFs in the other two folders to taste.

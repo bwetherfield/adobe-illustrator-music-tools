@@ -1,0 +1,88 @@
+To launch scripts within Illustrator, select File->Scripts->Other Script...
+or use keystroke fn+cmd+F12
+
+To add scripts to the default menu within File->Scripts:
+add the files to <Adobe Illustrator>/Presets/en_US/Scripts
+
+
+.scpt files must be run from within Illustrator in this way, and .jsx files
+CAN be run from within Illustrator in this way. .jsx files can also be run by
+double-clicking (in a folder outside of Illustrator). .app files must be run by
+double-clicking in the same way.
+These distinctions are reflected by the folders in which the relevant files are
+stored (“WithinIllustrator”, “OutsideIllustrator” and so on).
+
+Some .app files require permissions to run. If they are failing to run, go to
+System Preferences->Security & Privacy and select the Privacy tab and Accessibility
+menu. The relevant .app file should have an icon on the list of apps requiring 
+permission (provided an attempt has been made to execute it) and you should grant
+it permission by selecting its check box (inputting username and password as necessary)
+
+The benefit of files requiring permissions is that in the context of this package, it 
+is those files that bypass the use of Actions (like those in the Actions panel of 
+Illustrator). If a script has suffix NoActions.app, this means it does not trigger 
+Actions, while if it has suffix WithActions…, then Actions are called, so it relies on
+Default Actions having been updated (re the note in the “Add to Illustrator” folder).
+
+
+NOTES ON SCRIPTS INCLUDED:
+
+takeSymbolsFromPDFBlankDoc.jsx
+The intended target for this script is one of the Lilypond Music Font PDF files included
+in this package in the Lilypond source files and PDFs folder. The script extracts all the
+symbols, puts them in the symbols panel of the Illustrator interface in a new blank 
+document. An easy way to set up your musical workspace.
+
+REQUIRES (No requirements)
+
+MultiExporterForParts.jsx
+This script is due to Tom Byrne and Matthew Ericson 
+(https://gist.github.com/TomByrne/7816376), so it is the only script not the work of the 
+author, but it is an ideal addition to the music package for the purposes of making parts. 
+If a composer is working on a score, he/ she may ultimately wish to make parts for 
+individual performers within a larger ensemble. The music that they play from will 
+not contain all of the staves from the score (only those relevant to them, e.g. the 
+Trumpet staves).
+A brief note about layout of musical scores within Illustrator:
+It will be important to keep and their contents separate that belong to different 
+instruments in the score. For this purpose, the user should use “layers” in Illustrator
+to separate out notation belonging to different players. The createStave script (described
+below) is ideally suited to this task of encapsulation.
+With the layer break down of a musical score in place, for the purposes of making parts it
+will be necessary to export only certain layers. This is precisely what MultiExporter
+achieves. Run the script, choose the relevant layers, and export (as PNG24). Now in a 
+new file (which we will call file 2, and will not contain edits to the content of notation 
+but will merely display it for print in a different form), we select File->Place… and 
+choose a layer that we would like to place in the new file (this layer will be saved as a 
+PNG). Changes made in the score will be reflected in file 2. Simply rerun the script, 
+export to the same file location and update the link in the links menu of file 2 (if it 
+is not updated automatically).We have achieved “Dynamic Parts”, a feature prized by high
+end music notation software packages like Sibelius (other software is available…)!
+
+REQUIRES an open file with layers
+
+createCueSizeStave (various suffixes)
+Often we will want certain staves on the page to be different sizes (perhaps before 
+exporting to another file - e.g. to hold parts - see MultiExporter above). Scaling 
+using the mouse distorts symbols and relationships. That’s where this script comes
+in: to keep a proportional and legible stave, merely smaller in size.
+
+REQUIRES a stave and its associated contents selected (see below for making stave)
+
+makeStave (various suffixes)
+This script underpins the whole music notation model we are supporting with Illustrator.
+As mentioned in the above description of MusicExporter, we want to encapsulate
+stafflines within and underneath meaningful pieces of musical notation placed above
+the stave and all belonging to a single instrument. If we start with a layer then,
+that will be associated with a certain instrument, we want a way of creating a sublayer
+that only contains (a set of 5) stafflines.That is precisely what this script achieves.
+Simply draw a line or path within a document and ensure that it is selected. Then by
+running this script the line/ path will be transformed into a set of 5 encapsulated 
+stafflines of the right thickness and distance separating them (staves are 7mm from top
+to bottom, which is standard) in a sublayer within the original layer.
+
+REQUIRES a selected path/ line
+
+
+See the hand tool plug-in for further music notation functionality.
+

@@ -1,0 +1,162 @@
+//========================================================================================
+//  
+//  $File: //ai/mainline/devtech/sdk/public/samplecode/MultiArrowTool/Resources/Win/MultiArrowTool.rc $
+//
+//  $Revision: #3 $
+//
+//  Copyright 1987 Adobe Systems Incorporated. All rights reserved.
+//  
+//  NOTICE:  Adobe permits you to use, modify, and distribute this file in accordance 
+//  with the terms of the Adobe license agreement accompanying it.  If you have received
+//  this file from a source other than Adobe, then your use, modification, or 
+//  distribution of it requires the prior written permission of Adobe.
+//  
+//========================================================================================
+
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "MultiArrowToolID.h"
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#define kMySDKPluginName "MultiArrowTool"
+#define PIPL_PLUGIN_NAME kMySDKPluginName
+
+/////////////////////////////////////////////////////////////////////////////
+// VersionInfo
+//
+
+#include "VersionInfo.rc"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// PIPL
+//
+
+#define LC(a,b,c,d)		#d, #c, #b, #a
+
+16000  PiPL  DISCARDABLE
+BEGIN							
+	0x0001, 					/* Reserved (for Photoshop) */
+	0L, 						/* kCurrentPiPLVersion */
+	4L, 						/* Property Count */
+								
+	LC(A,D,B,E),				/* Vendor Key */
+	LC(k,i,n,d),				/* PIKindProperty */
+	0L,							/* Property ID */
+	4L,							/* Property Length */
+	LC(S,P,E,A),				/* SweetPEA2 plug in */
+								
+	LC(A,D,B,E),				/* Vendor Key */
+	LC(i,v,r,s),				/* Interface Version */
+	0L,							/* Property ID */
+	4L,							/* Property Length */
+	2L, 						/* Version Number */
+
+	LC(A,D,B,E),				/* Vendor Key */
+	LC(w,x,8,6),				/* PIWin32X86CodeProperty */
+	0L,							/* Property ID */
+	12L,						/* Property Length */
+	"PluginMain\0\0",			/* Entrypoint Name */
+								/* (Long Word padded C String) */
+
+	LC(A,D,B,E),				/* Vendor Key */
+	LC(p,i,n,m),				/* Interface Version */
+	0L,							/* Property ID */
+	16L,						/* Property Length */
+	PIPL_PLUGIN_NAME "\0\0"		/* Plug-in name (padded to 4 bytes) */
+END
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    kToolStrings            "<First Mac index is 1>"
+    16101                   "Head Arrow Tool"
+    16102                   "Tail Arrow Tool"
+    16103                   "Both Ends Arrow Tool"
+    16104                   "Straight Line Tool"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+IDToFile txt IDToFile.txt
+BothEndsArrowTool	png		BothEndsArrowTool.png
+BothEndsArrowTool_at_2x png "BothEndsArrowTool@2x.png"
+BothEndsArrowTool_at_3to2x png "BothEndsArrowTool@3to2x.png"
+
+BothEndsArrowToolDark png BothEndsArrowToolDark.png
+BothEndsArrowToolDark_at_2x png "BothEndsArrowToolDark@2x.png"
+BothEndsArrowToolDark_at_3to2x png "BothEndsArrowToolDark@3to2x.png"
+
+HeadArrowTool png HeadArrowTool.png
+HeadArrowTool_at_2x png "HeadArrowTool@2x.png"
+HeadArrowTool_at_3to2x png "HeadArrowTool@3to2x.png"
+
+HeadArrowToolDark png HeadArrowToolDark.png
+HeadArrowToolDark_at_2x png "HeadArrowToolDark@2x.png"
+HeadArrowToolDark_at_3to2x png "HeadArrowToolDark@3to2x.png"
+
+StraightLineTool png StraightLineTool.png
+StraightLineTool_at_2x png "StraightLineTool@2x.png"
+StraightLineTool_at_3to2x png "StraightLineTool@3to2x.png"
+
+StraightLineToolDark png StraightLineToolDark.png
+StraightLineToolDark_at_2x png "StraightLineToolDark@2x.png"
+StraightLineToolDark_at_3to2x png "StraightLineToolDark@3to2x.png"
+
+TailArrowTool png TailArrowTool.png
+TailArrowTool_at_2x png "TailArrowTool@2x.png"
+TailArrowTool_at_3to2x png "TailArrowTool@3to2x.png"
+
+TailArrowToolDark png TailArrowToolDark.png
+TailArrowToolDark_at_2x png "TailArrowToolDark@2x.png"
+TailArrowToolDark_at_3to2x png "TailArrowToolDark@3to2x.png"
+
+MultiArrowTool psd MultiArrowTool.psd

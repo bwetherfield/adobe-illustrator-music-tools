@@ -1,0 +1,148 @@
+Design.txt
+
+Notes to accompany this: Adobe Illustrator Music Notation Add-ons package
+Copyright Ben Wetherfield 2014
+
+My intentions for this project were to improve Adobe Illustrator as a piece of software
+for very flexible music notation. The advantage Illustrator has over music notation
+software packages available is that it allows very freehand design without making
+assumptions about musical syntax that can in fact shackle a contemporary composer. This 
+package provides the essential building blocks for using Illustrator easily to notate
+music in a structurally savvy way (using the object model that Illustrator has) while
+still leaving plenty of freedom to the user.
+
+In initial proposals and explorations I had a greater emphasis on the significance of
+plug-ins as a means of achieving my desired functionality than in the ultimate balance
+of features that I found (in this implementation). The first clear avenue for me to 
+pursue was to adapt a MultiArrowTool plug-in included as samplecode with the Illustrator
+SDK to make hairpins instead of arrows. This is an extremely useful tool, and superior 
+to the interface of any music notation software I know (Sibelius, Finale, GUIs for 
+Lilypond etc.) as far as making hairpins goes. I needed to trawl the very elaborate
+interacting methods of the source code to find the portions to adapt and do so 
+accordingly, developing a working knowledge of C++ and the Illustrator API.
+
+At first, the broad array of potential lines of tact for improving Illustrator was
+overwhelming. Adobe offers not only an SDK for plug-ins, but also three scripting 
+languages, extending JavaScript (operating system agnostic), AppleScript (Mac) and 
+VBscript (PC). I threw myself into learning about the plug-ins (based on advice I 
+received that this would be more profitable), learning about the elaborate way through
+which plug-ins communicate with the software and access the DOM. This process was fraught
+with difficulty: some samplecode would not run and I ultimately discovered that plug-ins
+could only be built on a Mac using an old version of Xcode (4.5.2).
+
+In any case, I did not have a clear idea of what direction I would take with further
+plug-ins. It was not clear what functionality would be worth achieving or possible without
+a firm grasp of the various DOMs the SDK code and scripting options were using. On top of 
+this, I was familiarizing myself with the DOM of Lilypond which is a music notation markup
+language with an extensive object model applied to its contents. One early idea I had was
+to somehow pipe the inheritance relationships of Lilypond into Illustrator, along with the
+Lilypond Feta fonts. I realized that this was in fact controverting my assumption of 
+wanting greater relational flexibility in the Illustrator design environment than was
+available in most existing music notation packages. Either way, finding a complete source
+of all the Lilypond notation symbols proved very difficult. Lilypond is made up of a wide
+array of source code for building, making and engraving in a variety of languages. I
+considered trying to pipe the engravers in Lilypond directly through an Illustrator 
+plug-in (both run on C++), so that Lilypond would be in a sense drawing onto the
+Illustrator artboard. This was another suboptimum solution even if I could get it to work,
+since it goes against the nature and capability of Illustrator as a software for "placed
+items" (but, again, I was all the while developing an understanding of Illustrator both
+above and below the hood).
+
+I learned ways of isolating symbols in Lilypond, using "tweaks", "overrides" and turning
+off certain "engravers", but I wanted a well encapsulated means of accessing basically
+all of the Feta font (with which it notates) in one fell swoop - perhaps iteratively.
+Digging deep enough, I ultimately found a font-table include, which triggered all the 
+main symbols - all those that would conveniently correspond to "symbol items" in 
+Illustrator, at least. I experimented with compiling to pdf and trying to access the 
+symbols on the page. Dragging was them one at a time to the symbols panel did work, but
+attempts to select more at a time resulted in groups of symbols being dragged in together.
+This was where I first leveraged the scripting possibilities of the Illustrator
+JavaScript extension. I was able to loop through items, once I figured out the DOM, and 
+add them as "symbols" (general keepers of "symbol items").
+
+Illustrator does not have an inbuilt means of opening multipage PDFs without manual 
+intervention. This was where code I found by Carlos Canto that places pages of a PDF on 
+separate artboards (~pages). I did away with this feature, instead closing in on the
+moment where items are grouped together and moved, ungrouping them, and moving them to
+symbols without bothering with laying them out across pages. I could have added my edits
+to the end of Canto's process, working easily with the set of artboards, moving their
+contents out of groupings (using item.move(...)) and adding them one by one, but my
+solution is superior, since it saves on space cutting off the process before it gets more
+wasteful.
+
+Like Canto, I ask the user to specify the number of pages of a PDF they are interested in.
+There are neat ways to calculate the number of pages in a pdf using applescript, but
+they generally assume software like Skim or PDFClerk see
+http://sintraworks.com/index.php/forums/viewthread/225/#483 or
+http://julifos.wordpress.com/2010/03/01/applescript-to-count-pages-of-pdf-documents-via-skim/
+Seeing as the user will want to peruse the compiled Lilypond PDFs to see the symbols
+available in any case, it is not unreasonable to ask the user to input the number of
+pages as well as part of the user interface of the script in Illustrator.
+
+I found myself ultimately having to complement my use of JavaScript with AppleScript, 
+both in triggering Illustrator functionality and "System Events" which adds more control,
+even if it requires more security permissions from the operating system. JavaScript does 
+not have the same access to menu command functionality as applescript. There is for no
+obvious reason, an incomplete list of commands that can be accessed by JavaScript.
+(see https://forums.adobe.com/thread/1405101). Both the ability to run Actions in 
+Illustrator or the ability to Path->Outline Stroke were lacking in JavaScript. These
+were needed for the design of my createStave script, the functionality of which I at first
+had to achieve in the Illustrator interface. As a workaround, I ran the the functionality
+I was able to produce in JavaScript inside of the AppleScript editor before resuming in
+JavaScript.
+
+This approach of nesting one scripting language inside of another has its pitfalls, but
+I found that during this project, there was often no alternative, and I was just lucky
+there was another language to fall back on when the other was acting up. Often arbitrary 
+changes like iterating down a for loop rather than iterating up would have positive
+outcomes on resolving an apparent bug. Applescript was completely missing a property
+("class") that should belong to every item that gets placed on an artboard. I checked on 
+one of the Harvard lab computers and found the exact same hole in the DOM, suggesting that 
+the problem was genuinely systematic and out of my hands to resolve. While the choping
+and changing of languages was necessary, it results in some imperfections such as when the
+user interacts with a script interface incorrectly. The JavaScript extension for 
+Illustrator has no used means of "exit()" of code when it encounters errors. The usual
+method for catching errors is to nest large chunks of code in "if... else alert()" type
+clauses, where nothing follows the "alert()" and so in a sense it functions as an error
+code. While this workaround is satisfactory when JavaScript alone is being run, where
+a segment of AppleScript is due to follow a portion JavaScript no matter what its outcome,
+it there is no catching method, the script keeps trying to run, and so pulls up more
+errors than are necessary or relevant or throws up an alert box that no longer has a use
+in directing the user.
+
+The shortcomings of the pair of scripting languages approach do not outweigh the benefits.
+Indeed, the occasional pile up of errors has no major consequences other than causing the
+user to press OK one or two more times than he/ she needs to. And that is only in rare
+instances where the user input has been incorrect.
+
+From an interface perspective, the use of scripts as a opposed to some kind of plug-in is
+no loss. I included a number of different ways to trigger the same functionality by making
+different versions of the same scripts, for instance, that leverage Actions within 
+Illustrator or "System Events" instead, which makes them more independent of the inner
+workings of the program. The main positive outcome is that the same effects can be
+accessed in different ways to the tastes of the user in terms of what interface they
+prefer. On the one hand, every piece of script functionality included can be accessed via
+Illustrator menus. On the other hand, they can stand alone in a file. This is ideally
+suited to a two screen set up, where the Illustrator window could occupy one, and the set
+of add-ons could lie waiting in the other screen. In all respects, this is equivalent
+indeed to having a plug-in with some kind of panel-type user interface (the form plug-ins
+tend to take in Illustrator), where effects could be triggered by clicking on elements.
+This is precisely the potential of the set of scripts included.
+
+I had to investigate widely not only the DOMs of the various means of interacting with
+Illustrator but also develop an understanding of Illustrator itself at the top level.
+While I was gaining familiarity, the majority of my ideas for manipulating objects had
+to come from playing around with the interface. There are differences between the top
+level and the scripting level, and indeed, between the different scripting languages! I
+discovered the AppleScript means of handling object collisions very slick, and was 
+developing a script in AppleScript before I encountered errors involving the "class"
+property being missing. I converted the ideas back into JavaScript and this became the
+basis for a crucial portion of the createCueSizeStave JS portions. I needed there to
+group together items with symbols they touched, so as to maintain bindings when elements
+were scaled and maintain the integrity/ legibility of the score as well as the rightful
+proportions of all the objects therein. In fact, grouping has a different structure under
+the hood, whereby, a group must be made and objects moved in and out of it. Scaling is
+different on the top layer also, and was more suited to the task of shrinking in the 
+y-direction as the final step of the script, which was why I returned to AppleScript
+functionality as a better means of interfacing with the top-level, with Actions and/or
+menu items (via "System Events").

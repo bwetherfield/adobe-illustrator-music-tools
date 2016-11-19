@@ -1,0 +1,18 @@
+Installation Instructions for Plug-in:
+
+
+Add to <Adobe Illustrator>/Plug-ins/Tools
+
+(where <Adobe Illustrator> represents the path to the Adobe Illustrator folder)
+
+
+OR
+
+
+From within Adobe Illustrator open Preferences->Plug-ins & Scratch Disk... and choose an
+additional folder that contains this plug-in.
+
+
+
+On launching Adobe Illustrator, a tool with an arrow or line for an icon will appear
+at the bottom of the tools pannel.

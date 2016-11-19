@@ -1,0 +1,1036 @@
+TMultiArrowTool
+v5
+r1
+cCheck dependencies
+cPreprocess "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/Preprocessed-Info.plist" ../common/mac/Info.plist
+cProcessInfoPlistFile "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./../output/mac/debug/MultiArrowTool.aip/Contents/Info.plist" "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/Preprocessed-Info.plist"
+cProcessPCH++ "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./../output/mac/sharedprecompiledheaders/debug/IllustratorSDKdebug-fufcvwkcfwlxifbncldonjkdafgp/IllustratorSDKdebug.pch.pth" ./../common/includes/IllustratorSDKdebug.pch normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./MultiArrowTool.build/Default/MultiArrowTool.build/Objects-normal/x86_64/IllustratorSDK.o "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../common/source/IllustratorSDK.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./MultiArrowTool.build/Default/MultiArrowTool.build/Objects-normal/x86_64/Suites.o "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../common/source/Suites.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./MultiArrowTool.build/Default/MultiArrowTool.build/Objects-normal/x86_64/MultiArrowToolSuites.o "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/Source/MultiArrowToolSuites.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./MultiArrowTool.build/Default/MultiArrowTool.build/Objects-normal/x86_64/Plugin.o "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../common/source/Plugin.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./MultiArrowTool.build/Default/MultiArrowTool.build/Objects-normal/x86_64/IAIUnicodeString.o "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/illustrator/IAIUnicodeString.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./MultiArrowTool.build/Default/MultiArrowTool.build/Objects-normal/x86_64/AppContext.o "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../common/source/AppContext.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./MultiArrowTool.build/Default/MultiArrowTool.build/Objects-normal/x86_64/Main.o "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../common/source/Main.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./MultiArrowTool.build/Default/MultiArrowTool.build/Objects-normal/x86_64/MultiArrowToolPlugin.o "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/Source/MultiArrowToolPlugin.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./MultiArrowTool.build/Default/MultiArrowTool.build/Objects-normal/x86_64/SDKAboutPluginsHelper.o "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../common/source/SDKAboutPluginsHelper.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./MultiArrowTool.build/Default/MultiArrowTool.build/Objects-normal/x86_64/IAIStringFormatUtils.o "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/illustrator/IAIStringFormatUtils.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./../output/mac/debug/MultiArrowTool.aip/Contents/MacOS/MultiArrowTool" normal x86_64
+cRez "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/ResourceManagerResources/Objects/MultiArrowTool.rsrc" Resources/Mac/MultiArrowTool.r
+cRez "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/ResourceManagerResources/Objects/MultiArrowTool2x.rsrc" Resources/Mac/MultiArrowTool2x.r
+cResMergerCollector "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/ResourceManagerResources/MultiArrowTool.rsrc"
+cResMergerProduct "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./../output/mac/debug/MultiArrowTool.aip/Contents/Resources/MultiArrowTool.rsrc"
+cPhaseScriptExecution "Run Script" "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/Script-3257372F17F088E20068501E.sh"
+cTouch "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./../output/mac/debug/MultiArrowTool.aip"
+
+N../common/mac/Info.plist
+c00000000547FD6CF00000000000005D8
+t1417664207
+s1496
+
+N/Applications/Xcode 4.5.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c00000000503F1B7700000000000000AA
+t1346313079
+s170
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/ate/ATEException.h
+c00000000542A9A220000000000000403
+t1412078114
+s1027
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/ate/ATESuites.h
+c00000000542A9A220000000000034756
+t1412078114
+s214870
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/ate/ATETypes.h
+c00000000542A9A220000000000007373
+t1412078114
+s29555
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/ate/ATETypesDef.h
+c00000000542A9A220000000000001595
+t1412078114
+s5525
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/ate/IText.h
+c00000000542A9A22000000000006A158
+t1412078114
+s434520
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/illustrator/ADMStdTypes.h
+c00000000542A9A220000000000001A57
+t1412078114
+s6743
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/illustrator/AIAGMTypes.h
+c00000000542A9A220000000000000D0E
+t1412078114
+s3342
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/illustrator/AIActionManager.h
+c00000000542A9A220000000000009205
+t1412078114
+s37381
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/illustrator/AIAnnotator.h
+c00000000542A9A2200000000000034A0
+t1412078114
+s13472
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/illustrator/AIAnnotatorDrawer.h
+c00000000542A9A220000000000004206
+t1412078114
+s16902
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/illustrator/AIArray.h
+c00000000542A9A220000000000003D99
+t1412078114
+s15769
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/illustrator/AIArt.h
+c00000000542A9A21000000000000DDB8
+t1412078113
+s56760
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/illustrator/AIArtSet.h
+c00000000542A9A21000000000000233C
+t1412078113
+s9020
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/illustrator/AIArtStyle.h
+c00000000542A9A220000000000006AEF
+t1412078114
+s27375
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/illustrator/AIArtboardRange.h
+c00000000542A9A210000000000001557
+t1412078113
+s5463
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/illustrator/AIBasicTypes.h
+c00000000542A9A210000000000000578
+t1412078113
+s1400
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/illustrator/AICSXSExtension.h
+c00000000542A9A220000000000000DC8
+t1412078114
+s3528
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/illustrator/AICharacterEncoding.h
+c00000000542A9A220000000000002503
+t1412078114
+s9475
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/illustrator/AIClipboard.h
+c00000000542A9A2200000000000021D6
+t1412078114
+s8662
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/illustrator/AIColor.h
+c00000000542A9A22000000000000575E
+t1412078114
+s22366
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/illustrator/AIColorConversion.h
+c00000000542A9A22000000000000267D
+t1412078114
+s9853
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/illustrator/AIContext.h
+c00000000542A9A220000000000001AA2
+t1412078114
+s6818
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/illustrator/AICustomColor.h
+c00000000542A9A21000000000000269C
+t1412078113
+s9884
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/illustrator/AIDataFilter.h
+c00000000542A9A210000000000002E78
+t1412078113
+s11896
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/illustrator/AIDictionary.h
+c00000000542A9A210000000000005349
+t1412078113
+s21321
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/illustrator/AIDocument.h
+c00000000542A9A210000000000008B84
+t1412078113
+s35716
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/illustrator/AIDocumentView.h
+c00000000542A9A21000000000000592A
+t1412078113
+s22826
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/illustrator/AIEntry.h
+c00000000542A9A220000000000006C9E
+t1412078114
+s27806
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/illustrator/AIEvent.h
+c00000000542A9A22000000000000102A
+t1412078114
+s4138
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/illustrator/AIFileFormat.h
+c00000000542A9A220000000000009884
+t1412078114
+s39044
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/illustrator/AIFilePath.h
+c00000000542A9A210000000000003CBD
+t1412078113
+s15549
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/illustrator/AIFilter.h
+c00000000542A9A2200000000000025E4
+t1412078114
+s9700
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/illustrator/AIFixedMath.h
+c00000000542A9A220000000000002022
+t1412078114
+s8226
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/illustrator/AIFolders.h
+c00000000542A9A220000000000003E39
+t1412078114
+s15929
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/illustrator/AIFont.h
+c00000000542A9A22000000000000B2EC
+t1412078114
+s45804
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/illustrator/AIHardSoft.h
+c00000000542A9A210000000000001F6F
+t1412078113
+s8047
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/illustrator/AIHeaderBegin.h
+c00000000542A9A220000000000000929
+t1412078114
+s2345
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/illustrator/AIHeaderEnd.h
+c00000000542A9A220000000000000854
+t1412078114
+s2132
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/illustrator/AIHitTest.h
+c00000000542A9A220000000000003C58
+t1412078114
+s15448
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/illustrator/AILayer.h
+c00000000542A9A220000000000004936
+t1412078114
+s18742
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/illustrator/AILayerList.h
+c00000000542A9A2200000000000034F6
+t1412078114
+s13558
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/illustrator/AILegacyTextConversion.h
+c00000000542A9A220000000000000C79
+t1412078114
+s3193
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/illustrator/AILiveEffect.h
+c00000000542A9A220000000000009003
+t1412078114
+s36867
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/illustrator/AIMask.h
+c00000000542A9A22000000000000565D
+t1412078114
+s22109
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/illustrator/AIMatchingArt.h
+c00000000542A9A2200000000000028A2
+t1412078114
+s10402
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/illustrator/AIMdMemory.h
+c00000000542A9A220000000000000E34
+t1412078114
+s3636
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/illustrator/AIMenu.h
+c00000000542A9A220000000000007AB7
+t1412078114
+s31415
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/illustrator/AIMenuGroups.h
+c00000000542A9A22000000000000270C
+t1412078114
+s9996
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/illustrator/AINameSpace.h
+c00000000542A9A2200000000000020A4
+t1412078114
+s8356
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/illustrator/AINotifier.h
+c00000000542A9A220000000000001B39
+t1412078114
+s6969
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/illustrator/AIObjectSet.h
+c00000000542A9A220000000000003668
+t1412078114
+s13928
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/illustrator/AIPath.h
+c00000000542A9A220000000000004DC3
+t1412078114
+s19907
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/illustrator/AIPathStyle.h
+c00000000542A9A2200000000000065E6
+t1412078114
+s26086
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/illustrator/AIPlaced.h
+c00000000542A9A2200000000000046D9
+t1412078114
+s18137
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/illustrator/AIPlugin.h
+c00000000542A9A2200000000000014F4
+t1412078114
+s5364
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/illustrator/AIPluginGroup.h
+c00000000542A9A220000000000015054
+t1412078114
+s86100
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/illustrator/AIPreference.h
+c00000000542A9A220000000000004C74
+t1412078114
+s19572
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/illustrator/AIRaster.h
+c00000000542A9A2200000000000095AB
+t1412078114
+s38315
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/illustrator/AIRealBezier.h
+c00000000542A9A210000000000001B8F
+t1412078113
+s7055
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/illustrator/AIRealMath.h
+c00000000542A9A2100000000000067E1
+t1412078113
+s26593
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/illustrator/AIRuntime.h
+c00000000542A9A2100000000000028E4
+t1412078113
+s10468
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/illustrator/AIStringFormatUtils.h
+c00000000542A9A220000000000001D6E
+t1412078114
+s7534
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/illustrator/AIStringPool.h
+c00000000542A9A220000000000000B8D
+t1412078114
+s2957
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/illustrator/AITextFrame.h
+c00000000542A9A220000000000005944
+t1412078114
+s22852
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/illustrator/AITimer.h
+c00000000542A9A220000000000001721
+t1412078114
+s5921
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/illustrator/AITool.h
+c00000000542A9A220000000000009EB9
+t1412078114
+s40633
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/illustrator/AIToolNames.h
+c00000000542A9A220000000000001593
+t1412078114
+s5523
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/illustrator/AITypes.h
+c00000000542A9A220000000000003C6F
+t1412078114
+s15471
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/illustrator/AIUndo.h
+c00000000542A9A220000000000002106
+t1412078114
+s8454
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/illustrator/AIUnicodeString.h
+c00000000542A9A220000000000005790
+t1412078114
+s22416
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/illustrator/AIUser.h
+c00000000542A9A2200000000000083C3
+t1412078114
+s33731
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/illustrator/AIWorkspace.h
+c00000000542A9A2200000000000034DC
+t1412078114
+s13532
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/illustrator/AIXMLElement.h
+c00000000542A9A2200000000000056A7
+t1412078114
+s22183
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/illustrator/ASConfig.h
+c00000000542A9A21000000000000154D
+t1412078113
+s5453
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/illustrator/ASHelp.h
+c00000000542A9A210000000000001751
+t1412078113
+s5969
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/illustrator/ASTypes.h
+c00000000542A9A220000000000002016
+t1412078114
+s8214
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/illustrator/IAIAutoBuffer.cpp
+c00000000542A9A2200000000000007A9
+t1412078114
+s1961
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/illustrator/IAIAutoBuffer.h
+c00000000542A9A220000000000001702
+t1412078114
+s5890
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/illustrator/IAIColorSpace.hpp
+c00000000542A9A220000000000003042
+t1412078114
+s12354
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/illustrator/IAIFilePath.hpp
+c00000000542A9A220000000000003C49
+t1412078114
+s15433
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/illustrator/IAILocale.h
+c00000000542A9A220000000000000FBC
+t1412078114
+s4028
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/illustrator/IAIStringFormatUtils.cpp
+c00000000542A9A2200000000000015DD
+t1412078114
+s5597
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/illustrator/IAIStringFormatUtils.h
+c00000000542A9A22000000000000190F
+t1412078114
+s6415
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/illustrator/IAIUnicodeString.cpp
+c00000000542A9A2200000000000038C4
+t1412078114
+s14532
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/illustrator/IAIUnicodeString.h
+c00000000542A9A22000000000000C9DF
+t1412078114
+s51679
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/illustrator/IAIUnicodeString.inl
+c00000000542A9A21000000000000175D
+t1412078113
+s5981
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/illustrator/SloTextdomTypes.h
+c00000000542A9A220000000000000181
+t1412078114
+s385
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/illustrator/VTableSupport.hpp
+c00000000542A9A220000000000000DC5
+t1412078114
+s3525
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/pica_sp/SPAccess.h
+c00000000542A9A210000000000003D7F
+t1412078113
+s15743
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/pica_sp/SPAdapts.h
+c00000000542A9A2200000000000043C6
+t1412078114
+s17350
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/pica_sp/SPBasic.h
+c00000000542A9A220000000000001BB4
+t1412078114
+s7092
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/pica_sp/SPBlocks.h
+c00000000542A9A2200000000000010BA
+t1412078114
+s4282
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/pica_sp/SPCaches.h
+c00000000542A9A22000000000000137E
+t1412078114
+s4990
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/pica_sp/SPConfig.h
+c00000000542A9A22000000000000092C
+t1412078114
+s2348
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/pica_sp/SPErrorCodes.h
+c00000000542A9A210000000000001756
+t1412078113
+s5974
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/pica_sp/SPFiles.h
+c00000000542A9A210000000000003375
+t1412078113
+s13173
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/pica_sp/SPHeaderBegin.h
+c00000000542A9A2200000000000004EC
+t1412078114
+s1260
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/pica_sp/SPHeaderEnd.h
+c00000000542A9A2200000000000003CB
+t1412078114
+s971
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/pica_sp/SPInterf.h
+c00000000542A9A220000000000001AA7
+t1412078114
+s6823
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/pica_sp/SPMdata.h
+c00000000542A9A210000000000000A7D
+t1412078113
+s2685
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/pica_sp/SPPiPL.h
+c00000000542A9A22000000000000303B
+t1412078114
+s12347
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/pica_sp/SPPlugs.h
+c00000000542A9A2200000000000045A6
+t1412078114
+s17830
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/pica_sp/SPProps.h
+c00000000542A9A22000000000000381C
+t1412078114
+s14364
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/pica_sp/SPRuntme.h
+c00000000542A9A220000000000004DAB
+t1412078114
+s19883
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/pica_sp/SPStrngs.h
+c00000000542A9A220000000000001355
+t1412078114
+s4949
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/pica_sp/SPSuites.h
+c00000000542A9A220000000000002E36
+t1412078114
+s11830
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/pica_sp/SPTypes.h
+c00000000542A9A210000000000000F66
+t1412078113
+s3942
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../common/includes/IllustratorSDK.h
+c00000000542A9A220000000000000952
+t1412078114
+s2386
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../common/includes/Plugin.hpp
+c00000000542A9A220000000000001658
+t1412078114
+s5720
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../common/includes/PluginStd.h
+c00000000542A9A22000000000000041B
+t1412078114
+s1051
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../common/includes/Suites.hpp
+c00000000542A9A2100000000000008A1
+t1412078113
+s2209
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../common/source/AppContext.cpp
+c00000000542A9A22000000000000055A
+t1412078114
+s1370
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../common/source/IllustratorSDK.cpp
+c00000000542A9A2200000000000002E0
+t1412078114
+s736
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../common/source/Main.cpp
+c00000000542A9A220000000000000C00
+t1412078114
+s3072
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../common/source/Plugin.cpp
+c00000000542A9A22000000000000489F
+t1412078114
+s18591
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../common/source/SDKAboutPluginsHelper.cpp
+c00000000542A9A220000000000001031
+t1412078114
+s4145
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../common/source/Suites.cpp
+c00000000542A9A2200000000000010D3
+t1412078114
+s4307
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./../common/includes/AppContext.hpp
+c00000000542A9A2200000000000003A3
+t1412078114
+s931
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./../common/includes/IllustratorSDKdebug.pch
+c00000000542A9A220000000000000385
+t1412078114
+s901
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./../common/includes/SDKAboutPluginsHelper.h
+c00000000542A9A210000000000000EE9
+t1412078113
+s3817
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./../common/includes/SDKDef.h
+c00000000542A9A2200000000000009EF
+t1412078114
+s2543
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./../common/includes/SDKErrors.h
+c00000000542A9A220000000000000FB2
+t1412078114
+s4018
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./../output/mac/debug/MultiArrowTool.aip
+t1417889419
+s102
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./../output/mac/debug/MultiArrowTool.aip/Contents/Info.plist
+t1417665977
+s1693
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./../output/mac/debug/MultiArrowTool.aip/Contents/MacOS/MultiArrowTool
+t1417889417
+s88080
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./../output/mac/debug/MultiArrowTool.aip/Contents/PkgInfo
+t1417665977
+s8
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./../output/mac/debug/MultiArrowTool.aip/Contents/Resources/MultiArrowTool.rsrc
+t1417889419
+s478
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./../output/mac/sharedprecompiledheaders/debug/IllustratorSDKdebug-fufcvwkcfwlxifbncldonjkdafgp/IllustratorSDKdebug.pch.pth
+t1417665979
+s11420288
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/Objects-normal/x86_64/AppContext.o
+t1417665980
+s4628
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/Objects-normal/x86_64/IAIStringFormatUtils.o
+t1417665980
+s68716
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/Objects-normal/x86_64/IAIUnicodeString.o
+t1417665980
+s152988
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/Objects-normal/x86_64/IllustratorSDK.o
+t1417665980
+s1880
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/Objects-normal/x86_64/Main.o
+t1417665980
+s17440
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/Objects-normal/x86_64/MultiArrowTool.LinkFileList
+c00000000547E754C0000000000000679
+t1417573708
+s1657
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/Objects-normal/x86_64/MultiArrowToolPlugin.o
+t1417889417
+s134652
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/Objects-normal/x86_64/MultiArrowToolSuites.o
+t1417889416
+s63292
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/Objects-normal/x86_64/Plugin.o
+t1417665980
+s96380
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/Objects-normal/x86_64/SDKAboutPluginsHelper.o
+t1417665980
+s67084
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/Objects-normal/x86_64/Suites.o
+t1417665980
+s18740
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/Preprocessed-Info.plist
+t1417665977
+s1264
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/ResourceManagerResources/MultiArrowTool.rsrc
+t1417889419
+s478
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/ResourceManagerResources/Objects/MultiArrowTool.rsrc
+t1417889418
+s478
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/ResourceManagerResources/Objects/MultiArrowTool2x.rsrc
+t1417889418
+s286
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/Script-3257372F17F088E20068501E.sh
+c00000000547E754C0000000000000FA7
+t1417573708
+s4007
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/Resources/Mac/MultiArrowTool.r
+c000000005483454F00000000000007DE
+t1417889103
+s2014
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/Resources/Mac/MultiArrowTool2x.r
+c000000005483454E0000000000000378
+t1417889102
+s888
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/Source/MultiArrowToolID.h
+c00000000548356CB000000000000056F
+t1417893579
+s1391
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/Source/MultiArrowToolPlugin.cpp
+c00000000548345550000000000005F78
+t1417889109
+s24440
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/Source/MultiArrowToolPlugin.h
+c00000000548345540000000000001B39
+t1417889108
+s6969
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/Source/MultiArrowToolSuites.cpp
+c000000005483455300000000000009AC
+t1417889107
+s2476
+
+N/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/Source/MultiArrowToolSuites.h
+c000000005483455100000000000006F4
+t1417889105
+s1780
+
+CBuild AST from "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/illustrator/IAIStringFormatUtils.cpp"
+r0
+
+CBuild AST from "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/illustrator/IAIUnicodeString.cpp"
+r0
+
+CBuild AST from "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../common/source/AppContext.cpp"
+r0
+
+CBuild AST from "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../common/source/IllustratorSDK.cpp"
+r0
+
+CBuild AST from "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../common/source/Main.cpp"
+r0
+
+CBuild AST from "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../common/source/Plugin.cpp"
+r0
+
+CBuild AST from "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../common/source/SDKAboutPluginsHelper.cpp"
+r0
+
+CBuild AST from "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../common/source/Suites.cpp"
+r0
+
+CBuild AST from "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/Source/MultiArrowToolPlugin.cpp"
+r0
+
+CBuild AST from "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/Source/MultiArrowToolSuites.cpp"
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies80b6a54f8e33ba41^321da64f8e33ba41^---0#1#0#--18"Check dependencies36"38794710-FC22-48DE-9511-8BAE7BFA9CB7-
+
+CCompileC ./MultiArrowTool.build/Default/MultiArrowTool.build/Objects-normal/x86_64/AppContext.o "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../common/source/AppContext.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s439358779.664353
+e439358780.127952
+r1
+xCompileC
+x./MultiArrowTool.build/Default/MultiArrowTool.build/Objects-normal/x86_64/AppContext.o
+x/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../common/source/AppContext.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Compile /Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../common/source/AppContext.cppc840aa3b1530ba41^adc0203c1530ba41^---0#0#0#-19%DVTDocumentLocation2@130"file://localhost/Users/Ben/Desktop/Adobe%20Illustrator%20CC%202014%20SDK/samplecode/MultiArrowTool/../common/source/AppContext.cpp0000000000000000^3682"CompileC ./MultiArrowTool.build/Default/MultiArrowTool.build/Objects-normal/x86_64/AppContext.o ../common/source/AppContext.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool"    setenv LANG en_US.US-ASCII    "/Applications/Xcode 4.5.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wunknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot "/Applications/Xcode 4.5.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk" -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.6 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/MultiArrowTool-generated-files.hmap" "-I/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/MultiArrowTool-own-target-headers.hmap" "-I/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/MultiArrowTool-all-target-headers.hmap" -iquote "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/MultiArrowTool-project-headers.hmap" "-I/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../output/mac/debug/include" -I../../illustratorapi -I../../illustratorapi/ate -I../../illustratorapi/illustrator -I../../illustratorapi/pica_sp -I../../illustratorapi/ate/legacy -I../../illustratorapi/ate/SloTextdomTypes -I../../illustratorapi/illustrator/actions -I/Developer/Headers/FlatCarbon -I -I../common -I../common/includes -I../common/mac -I../common/source -I../common/win -I../common/includes/legacy -I../common/source/legacy "-I/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/DerivedSources/x86_64" "-I/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/DerivedSources" "-F/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../output/mac/debug" -include "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./../output/mac/sharedprecompiledheaders/debug/IllustratorSDKdebug-fufcvwkcfwlxifbncldonjkdafgp/IllustratorSDKdebug.pch" -MMD -MT dependencies -MF "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/Objects-normal/x86_64/AppContext.d" --serialize-diagnostics "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/Objects-normal/x86_64/AppContext.dia" -c "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../common/source/AppContext.cpp" -o "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/Objects-normal/x86_64/AppContext.o"36"03BAB94A-05F9-4D3B-B686-A87F7FF03912-
+
+CCompileC ./MultiArrowTool.build/Default/MultiArrowTool.build/Objects-normal/x86_64/IAIStringFormatUtils.o "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/illustrator/IAIStringFormatUtils.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s439358779.664361
+e439358780.148647
+r1
+xCompileC
+x./MultiArrowTool.build/Default/MultiArrowTool.build/Objects-normal/x86_64/IAIStringFormatUtils.o
+x/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/illustrator/IAIStringFormatUtils.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection140"Compile /Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/illustrator/IAIStringFormatUtils.cppa241aa3b1530ba41^520e263c1530ba41^---0#0#0#-19%DVTDocumentLocation2@156"file://localhost/Users/Ben/Desktop/Adobe%20Illustrator%20CC%202014%20SDK/samplecode/MultiArrowTool/../../illustratorapi/illustrator/IAIStringFormatUtils.cpp0000000000000000^3774"CompileC ./MultiArrowTool.build/Default/MultiArrowTool.build/Objects-normal/x86_64/IAIStringFormatUtils.o ../../illustratorapi/illustrator/IAIStringFormatUtils.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool"    setenv LANG en_US.US-ASCII    "/Applications/Xcode 4.5.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wunknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot "/Applications/Xcode 4.5.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk" -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.6 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/MultiArrowTool-generated-files.hmap" "-I/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/MultiArrowTool-own-target-headers.hmap" "-I/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/MultiArrowTool-all-target-headers.hmap" -iquote "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/MultiArrowTool-project-headers.hmap" "-I/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../output/mac/debug/include" -I../../illustratorapi -I../../illustratorapi/ate -I../../illustratorapi/illustrator -I../../illustratorapi/pica_sp -I../../illustratorapi/ate/legacy -I../../illustratorapi/ate/SloTextdomTypes -I../../illustratorapi/illustrator/actions -I/Developer/Headers/FlatCarbon -I -I../common -I../common/includes -I../common/mac -I../common/source -I../common/win -I../common/includes/legacy -I../common/source/legacy "-I/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/DerivedSources/x86_64" "-I/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/DerivedSources" "-F/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../output/mac/debug" -include "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./../output/mac/sharedprecompiledheaders/debug/IllustratorSDKdebug-fufcvwkcfwlxifbncldonjkdafgp/IllustratorSDKdebug.pch" -MMD -MT dependencies -MF "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/Objects-normal/x86_64/IAIStringFormatUtils.d" --serialize-diagnostics "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/Objects-normal/x86_64/IAIStringFormatUtils.dia" -c "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/illustrator/IAIStringFormatUtils.cpp" -o "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/Objects-normal/x86_64/IAIStringFormatUtils.o"36"A93CF99F-615B-4F0A-BE84-D56A044981E3-
+
+CCompileC ./MultiArrowTool.build/Default/MultiArrowTool.build/Objects-normal/x86_64/IAIUnicodeString.o "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/illustrator/IAIUnicodeString.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s439358779.664337
+e439358780.221151
+r1
+xCompileC
+x./MultiArrowTool.build/Default/MultiArrowTool.build/Objects-normal/x86_64/IAIUnicodeString.o
+x/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/illustrator/IAIUnicodeString.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection136"Compile /Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/illustrator/IAIUnicodeString.cppf641aa3b1530ba41^d09d383c1530ba41^---0#0#0#-19%DVTDocumentLocation2@152"file://localhost/Users/Ben/Desktop/Adobe%20Illustrator%20CC%202014%20SDK/samplecode/MultiArrowTool/../../illustratorapi/illustrator/IAIUnicodeString.cpp0000000000000000^3750"CompileC ./MultiArrowTool.build/Default/MultiArrowTool.build/Objects-normal/x86_64/IAIUnicodeString.o ../../illustratorapi/illustrator/IAIUnicodeString.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool"    setenv LANG en_US.US-ASCII    "/Applications/Xcode 4.5.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wunknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot "/Applications/Xcode 4.5.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk" -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.6 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/MultiArrowTool-generated-files.hmap" "-I/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/MultiArrowTool-own-target-headers.hmap" "-I/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/MultiArrowTool-all-target-headers.hmap" -iquote "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/MultiArrowTool-project-headers.hmap" "-I/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../output/mac/debug/include" -I../../illustratorapi -I../../illustratorapi/ate -I../../illustratorapi/illustrator -I../../illustratorapi/pica_sp -I../../illustratorapi/ate/legacy -I../../illustratorapi/ate/SloTextdomTypes -I../../illustratorapi/illustrator/actions -I/Developer/Headers/FlatCarbon -I -I../common -I../common/includes -I../common/mac -I../common/source -I../common/win -I../common/includes/legacy -I../common/source/legacy "-I/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/DerivedSources/x86_64" "-I/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/DerivedSources" "-F/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../output/mac/debug" -include "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./../output/mac/sharedprecompiledheaders/debug/IllustratorSDKdebug-fufcvwkcfwlxifbncldonjkdafgp/IllustratorSDKdebug.pch" -MMD -MT dependencies -MF "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/Objects-normal/x86_64/IAIUnicodeString.d" --serialize-diagnostics "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/Objects-normal/x86_64/IAIUnicodeString.dia" -c "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../../illustratorapi/illustrator/IAIUnicodeString.cpp" -o "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/Objects-normal/x86_64/IAIUnicodeString.o"36"0547AC90-0AC4-4637-8BE6-98618E0D1A02-
+
+CCompileC ./MultiArrowTool.build/Default/MultiArrowTool.build/Objects-normal/x86_64/IllustratorSDK.o "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../common/source/IllustratorSDK.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s439358780.148796
+e439358780.203870
+r1
+xCompileC
+x./MultiArrowTool.build/Default/MultiArrowTool.build/Objects-normal/x86_64/IllustratorSDK.o
+x/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../common/source/IllustratorSDK.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection118"Compile /Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../common/source/IllustratorSDK.cpp1134263c1530ba41^3c30343c1530ba41^---0#0#0#-19%DVTDocumentLocation2@134"file://localhost/Users/Ben/Desktop/Adobe%20Illustrator%20CC%202014%20SDK/samplecode/MultiArrowTool/../common/source/IllustratorSDK.cpp0000000000000000^3706"CompileC ./MultiArrowTool.build/Default/MultiArrowTool.build/Objects-normal/x86_64/IllustratorSDK.o ../common/source/IllustratorSDK.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool"    setenv LANG en_US.US-ASCII    "/Applications/Xcode 4.5.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wunknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot "/Applications/Xcode 4.5.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk" -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.6 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/MultiArrowTool-generated-files.hmap" "-I/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/MultiArrowTool-own-target-headers.hmap" "-I/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/MultiArrowTool-all-target-headers.hmap" -iquote "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/MultiArrowTool-project-headers.hmap" "-I/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../output/mac/debug/include" -I../../illustratorapi -I../../illustratorapi/ate -I../../illustratorapi/illustrator -I../../illustratorapi/pica_sp -I../../illustratorapi/ate/legacy -I../../illustratorapi/ate/SloTextdomTypes -I../../illustratorapi/illustrator/actions -I/Developer/Headers/FlatCarbon -I -I../common -I../common/includes -I../common/mac -I../common/source -I../common/win -I../common/includes/legacy -I../common/source/legacy "-I/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/DerivedSources/x86_64" "-I/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/DerivedSources" "-F/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../output/mac/debug" -include "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./../output/mac/sharedprecompiledheaders/debug/IllustratorSDKdebug-fufcvwkcfwlxifbncldonjkdafgp/IllustratorSDKdebug.pch" -MMD -MT dependencies -MF "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/Objects-normal/x86_64/IllustratorSDK.d" --serialize-diagnostics "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/Objects-normal/x86_64/IllustratorSDK.dia" -c "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../common/source/IllustratorSDK.cpp" -o "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/Objects-normal/x86_64/IllustratorSDK.o"36"D2B8B1E3-9B2D-4045-BD25-B191D39802A0-
+
+CCompileC ./MultiArrowTool.build/Default/MultiArrowTool.build/Objects-normal/x86_64/Main.o "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../common/source/Main.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s439358780.204008
+e439358780.318404
+r1
+xCompileC
+x./MultiArrowTool.build/Default/MultiArrowTool.build/Objects-normal/x86_64/Main.o
+x/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../common/source/Main.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Compile /Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../common/source/Main.cpp1763343c1530ba41^8882513c1530ba41^---0#0#0#-19%DVTDocumentLocation2@124"file://localhost/Users/Ben/Desktop/Adobe%20Illustrator%20CC%202014%20SDK/samplecode/MultiArrowTool/../common/source/Main.cpp0000000000000000^3646"CompileC ./MultiArrowTool.build/Default/MultiArrowTool.build/Objects-normal/x86_64/Main.o ../common/source/Main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool"    setenv LANG en_US.US-ASCII    "/Applications/Xcode 4.5.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wunknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot "/Applications/Xcode 4.5.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk" -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.6 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/MultiArrowTool-generated-files.hmap" "-I/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/MultiArrowTool-own-target-headers.hmap" "-I/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/MultiArrowTool-all-target-headers.hmap" -iquote "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/MultiArrowTool-project-headers.hmap" "-I/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../output/mac/debug/include" -I../../illustratorapi -I../../illustratorapi/ate -I../../illustratorapi/illustrator -I../../illustratorapi/pica_sp -I../../illustratorapi/ate/legacy -I../../illustratorapi/ate/SloTextdomTypes -I../../illustratorapi/illustrator/actions -I/Developer/Headers/FlatCarbon -I -I../common -I../common/includes -I../common/mac -I../common/source -I../common/win -I../common/includes/legacy -I../common/source/legacy "-I/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/DerivedSources/x86_64" "-I/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/DerivedSources" "-F/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../output/mac/debug" -include "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./../output/mac/sharedprecompiledheaders/debug/IllustratorSDKdebug-fufcvwkcfwlxifbncldonjkdafgp/IllustratorSDKdebug.pch" -MMD -MT dependencies -MF "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/Objects-normal/x86_64/Main.d" --serialize-diagnostics "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/Objects-normal/x86_64/Main.dia" -c "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../common/source/Main.cpp" -o "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/Objects-normal/x86_64/Main.o"36"9C835F10-F204-4856-B988-7389AE93C216-
+
+CCompileC ./MultiArrowTool.build/Default/MultiArrowTool.build/Objects-normal/x86_64/MultiArrowToolPlugin.o "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/Source/MultiArrowToolPlugin.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s439586383.654767
+e439586384.776212
+r1
+xCompileC
+x./MultiArrowTool.build/Default/MultiArrowTool.build/Objects-normal/x86_64/MultiArrowToolPlugin.o
+x/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/Source/MultiArrowToolPlugin.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/Source/MultiArrowToolPlugin.cpp:322:18: warning: unused variable 'advStrokeParams' [-Wunused-variable]
+o        AIDictionaryRef advStrokeParams = NULL;
+o                        ^
+o/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/Source/MultiArrowToolPlugin.cpp:321:17: warning: unused variable 'pathStyleMap' [-Wunused-variable]
+o        AIPathStyleMap pathStyleMap;
+o                       ^
+o2 warnings generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Compile /Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/Source/MultiArrowToolPlugin.cpp28b9a74f8e33ba41^bcb3c6508e33ba41^-511"/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/Source/MultiArrowToolPlugin.cpp:322:18: warning: unused variable 'advStrokeParams' [-Wunused-variable]        AIDictionaryRef advStrokeParams = NULL;                        ^/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/Source/MultiArrowToolPlugin.cpp:321:17: warning: unused variable 'pathStyleMap' [-Wunused-variable]        AIPathStyleMap pathStyleMap;                       ^2 warnings generated.2(36%IDEClangDiagnosticActivityLogMessage2@33"Unused variable 'advStrokeParams'-439586384#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@130"file://localhost/Users/Ben/Desktop/Adobe%20Illustrator%20CC%202014%20SDK/samplecode/MultiArrowTool/Source/MultiArrowToolPlugin.cpp0000000000000000^321#17#321#17#8840#0#19"Unused Entity Issue--2@30"Unused variable 'pathStyleMap'-439586384#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@130"file://localhost/Users/Ben/Desktop/Adobe%20Illustrator%20CC%202014%20SDK/samplecode/MultiArrowTool/Source/MultiArrowToolPlugin.cpp0000000000000000^320#16#320#16#8809#0#19"Unused Entity Issue--0#0#0#-19%DVTDocumentLocation4@130"file://localhost/Users/Ben/Desktop/Adobe%20Illustrator%20CC%202014%20SDK/samplecode/MultiArrowTool/Source/MultiArrowToolPlugin.cpp0000000000000000^3722"CompileC ./MultiArrowTool.build/Default/MultiArrowTool.build/Objects-normal/x86_64/MultiArrowToolPlugin.o Source/MultiArrowToolPlugin.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool"    setenv LANG en_US.US-ASCII    "/Applications/Xcode 4.5.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wunknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot "/Applications/Xcode 4.5.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk" -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.6 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/MultiArrowTool-generated-files.hmap" "-I/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/MultiArrowTool-own-target-headers.hmap" "-I/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/MultiArrowTool-all-target-headers.hmap" -iquote "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/MultiArrowTool-project-headers.hmap" "-I/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../output/mac/debug/include" -I../../illustratorapi -I../../illustratorapi/ate -I../../illustratorapi/illustrator -I../../illustratorapi/pica_sp -I../../illustratorapi/ate/legacy -I../../illustratorapi/ate/SloTextdomTypes -I../../illustratorapi/illustrator/actions -I/Developer/Headers/FlatCarbon -I -I../common -I../common/includes -I../common/mac -I../common/source -I../common/win -I../common/includes/legacy -I../common/source/legacy "-I/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/DerivedSources/x86_64" "-I/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/DerivedSources" "-F/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../output/mac/debug" -include "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./../output/mac/sharedprecompiledheaders/debug/IllustratorSDKdebug-fufcvwkcfwlxifbncldonjkdafgp/IllustratorSDKdebug.pch" -MMD -MT dependencies -MF "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/Objects-normal/x86_64/MultiArrowToolPlugin.d" --serialize-diagnostics "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/Objects-normal/x86_64/MultiArrowToolPlugin.dia" -c "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/Source/MultiArrowToolPlugin.cpp" -o "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/Objects-normal/x86_64/MultiArrowToolPlugin.o"36"E74499FE-FB49-461D-B2FA-4FD8FBF53EC6-
+
+CCompileC ./MultiArrowTool.build/Default/MultiArrowTool.build/Objects-normal/x86_64/MultiArrowToolSuites.o "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/Source/MultiArrowToolSuites.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s439582214.725878
+e439582216.757136
+r1
+xCompileC
+x./MultiArrowTool.build/Default/MultiArrowTool.build/Objects-normal/x86_64/MultiArrowToolSuites.o
+x/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/Source/MultiArrowToolSuites.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Compile /Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/Source/MultiArrowToolSuites.cpp90f8b9067e33ba41^afd2c1087e33ba41^---0#0#0#-19%DVTDocumentLocation2@130"file://localhost/Users/Ben/Desktop/Adobe%20Illustrator%20CC%202014%20SDK/samplecode/MultiArrowTool/Source/MultiArrowToolSuites.cpp0000000000000000^3722"CompileC ./MultiArrowTool.build/Default/MultiArrowTool.build/Objects-normal/x86_64/MultiArrowToolSuites.o Source/MultiArrowToolSuites.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool"    setenv LANG en_US.US-ASCII    "/Applications/Xcode 4.5.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wunknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot "/Applications/Xcode 4.5.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk" -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.6 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/MultiArrowTool-generated-files.hmap" "-I/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/MultiArrowTool-own-target-headers.hmap" "-I/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/MultiArrowTool-all-target-headers.hmap" -iquote "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/MultiArrowTool-project-headers.hmap" "-I/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../output/mac/debug/include" -I../../illustratorapi -I../../illustratorapi/ate -I../../illustratorapi/illustrator -I../../illustratorapi/pica_sp -I../../illustratorapi/ate/legacy -I../../illustratorapi/ate/SloTextdomTypes -I../../illustratorapi/illustrator/actions -I/Developer/Headers/FlatCarbon -I -I../common -I../common/includes -I../common/mac -I../common/source -I../common/win -I../common/includes/legacy -I../common/source/legacy "-I/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/DerivedSources/x86_64" "-I/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/DerivedSources" "-F/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../output/mac/debug" -include "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./../output/mac/sharedprecompiledheaders/debug/IllustratorSDKdebug-fufcvwkcfwlxifbncldonjkdafgp/IllustratorSDKdebug.pch" -MMD -MT dependencies -MF "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/Objects-normal/x86_64/MultiArrowToolSuites.d" --serialize-diagnostics "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/Objects-normal/x86_64/MultiArrowToolSuites.dia" -c "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/Source/MultiArrowToolSuites.cpp" -o "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/Objects-normal/x86_64/MultiArrowToolSuites.o"36"E23169B1-155E-4190-AD72-CCCA5BA2B53C-
+
+CCompileC ./MultiArrowTool.build/Default/MultiArrowTool.build/Objects-normal/x86_64/Plugin.o "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../common/source/Plugin.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s439358780.221293
+e439358780.419010
+r1
+xCompileC
+x./MultiArrowTool.build/Default/MultiArrowTool.build/Objects-normal/x86_64/Plugin.o
+x/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../common/source/Plugin.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Compile /Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../common/source/Plugin.cppeed0383c1530ba41^d4446b3c1530ba41^---0#0#0#-19%DVTDocumentLocation2@126"file://localhost/Users/Ben/Desktop/Adobe%20Illustrator%20CC%202014%20SDK/samplecode/MultiArrowTool/../common/source/Plugin.cpp0000000000000000^3658"CompileC ./MultiArrowTool.build/Default/MultiArrowTool.build/Objects-normal/x86_64/Plugin.o ../common/source/Plugin.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool"    setenv LANG en_US.US-ASCII    "/Applications/Xcode 4.5.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wunknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot "/Applications/Xcode 4.5.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk" -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.6 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/MultiArrowTool-generated-files.hmap" "-I/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/MultiArrowTool-own-target-headers.hmap" "-I/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/MultiArrowTool-all-target-headers.hmap" -iquote "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/MultiArrowTool-project-headers.hmap" "-I/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../output/mac/debug/include" -I../../illustratorapi -I../../illustratorapi/ate -I../../illustratorapi/illustrator -I../../illustratorapi/pica_sp -I../../illustratorapi/ate/legacy -I../../illustratorapi/ate/SloTextdomTypes -I../../illustratorapi/illustrator/actions -I/Developer/Headers/FlatCarbon -I -I../common -I../common/includes -I../common/mac -I../common/source -I../common/win -I../common/includes/legacy -I../common/source/legacy "-I/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/DerivedSources/x86_64" "-I/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/DerivedSources" "-F/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../output/mac/debug" -include "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./../output/mac/sharedprecompiledheaders/debug/IllustratorSDKdebug-fufcvwkcfwlxifbncldonjkdafgp/IllustratorSDKdebug.pch" -MMD -MT dependencies -MF "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/Objects-normal/x86_64/Plugin.d" --serialize-diagnostics "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/Objects-normal/x86_64/Plugin.dia" -c "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../common/source/Plugin.cpp" -o "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/Objects-normal/x86_64/Plugin.o"36"99503255-FAD2-48BA-81C1-1CAB61A6B568-
+
+CCompileC ./MultiArrowTool.build/Default/MultiArrowTool.build/Objects-normal/x86_64/SDKAboutPluginsHelper.o "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../common/source/SDKAboutPluginsHelper.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s439358780.318540
+e439358780.433491
+r1
+xCompileC
+x./MultiArrowTool.build/Default/MultiArrowTool.build/Objects-normal/x86_64/SDKAboutPluginsHelper.o
+x/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../common/source/SDKAboutPluginsHelper.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection125"Compile /Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../common/source/SDKAboutPluginsHelper.cppf3ab513c1530ba41^44f96e3c1530ba41^---0#0#0#-19%DVTDocumentLocation2@141"file://localhost/Users/Ben/Desktop/Adobe%20Illustrator%20CC%202014%20SDK/samplecode/MultiArrowTool/../common/source/SDKAboutPluginsHelper.cpp0000000000000000^3748"CompileC ./MultiArrowTool.build/Default/MultiArrowTool.build/Objects-normal/x86_64/SDKAboutPluginsHelper.o ../common/source/SDKAboutPluginsHelper.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool"    setenv LANG en_US.US-ASCII    "/Applications/Xcode 4.5.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wunknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot "/Applications/Xcode 4.5.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk" -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.6 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/MultiArrowTool-generated-files.hmap" "-I/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/MultiArrowTool-own-target-headers.hmap" "-I/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/MultiArrowTool-all-target-headers.hmap" -iquote "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/MultiArrowTool-project-headers.hmap" "-I/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../output/mac/debug/include" -I../../illustratorapi -I../../illustratorapi/ate -I../../illustratorapi/illustrator -I../../illustratorapi/pica_sp -I../../illustratorapi/ate/legacy -I../../illustratorapi/ate/SloTextdomTypes -I../../illustratorapi/illustrator/actions -I/Developer/Headers/FlatCarbon -I -I../common -I../common/includes -I../common/mac -I../common/source -I../common/win -I../common/includes/legacy -I../common/source/legacy "-I/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/DerivedSources/x86_64" "-I/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/DerivedSources" "-F/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../output/mac/debug" -include "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./../output/mac/sharedprecompiledheaders/debug/IllustratorSDKdebug-fufcvwkcfwlxifbncldonjkdafgp/IllustratorSDKdebug.pch" -MMD -MT dependencies -MF "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/Objects-normal/x86_64/SDKAboutPluginsHelper.d" --serialize-diagnostics "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/Objects-normal/x86_64/SDKAboutPluginsHelper.dia" -c "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../common/source/SDKAboutPluginsHelper.cpp" -o "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/Objects-normal/x86_64/SDKAboutPluginsHelper.o"36"A3AAD3FB-821D-4B41-87F1-5096778DEF3A-
+
+CCompileC ./MultiArrowTool.build/Default/MultiArrowTool.build/Objects-normal/x86_64/Suites.o "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../common/source/Suites.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s439358779.664301
+e439358780.131267
+r1
+xCompileC
+x./MultiArrowTool.build/Default/MultiArrowTool.build/Objects-normal/x86_64/Suites.o
+x/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../common/source/Suites.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Compile /Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../common/source/Suites.cpp6e4daa3b1530ba41^209a213c1530ba41^---0#0#0#-19%DVTDocumentLocation2@126"file://localhost/Users/Ben/Desktop/Adobe%20Illustrator%20CC%202014%20SDK/samplecode/MultiArrowTool/../common/source/Suites.cpp0000000000000000^3658"CompileC ./MultiArrowTool.build/Default/MultiArrowTool.build/Objects-normal/x86_64/Suites.o ../common/source/Suites.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool"    setenv LANG en_US.US-ASCII    "/Applications/Xcode 4.5.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wunknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot "/Applications/Xcode 4.5.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk" -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.6 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/MultiArrowTool-generated-files.hmap" "-I/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/MultiArrowTool-own-target-headers.hmap" "-I/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/MultiArrowTool-all-target-headers.hmap" -iquote "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/MultiArrowTool-project-headers.hmap" "-I/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../output/mac/debug/include" -I../../illustratorapi -I../../illustratorapi/ate -I../../illustratorapi/illustrator -I../../illustratorapi/pica_sp -I../../illustratorapi/ate/legacy -I../../illustratorapi/ate/SloTextdomTypes -I../../illustratorapi/illustrator/actions -I/Developer/Headers/FlatCarbon -I -I../common -I../common/includes -I../common/mac -I../common/source -I../common/win -I../common/includes/legacy -I../common/source/legacy "-I/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/DerivedSources/x86_64" "-I/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/DerivedSources" "-F/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../output/mac/debug" -include "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./../output/mac/sharedprecompiledheaders/debug/IllustratorSDKdebug-fufcvwkcfwlxifbncldonjkdafgp/IllustratorSDKdebug.pch" -MMD -MT dependencies -MF "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/Objects-normal/x86_64/Suites.d" --serialize-diagnostics "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/Objects-normal/x86_64/Suites.dia" -c "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../common/source/Suites.cpp" -o "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/Objects-normal/x86_64/Suites.o"36"FA41B8FC-1014-40F4-A774-E7D5EF4137C4-
+
+CLd "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./../output/mac/debug/MultiArrowTool.aip/Contents/MacOS/MultiArrowTool" normal x86_64
+s439586384.776379
+e439586385.254743
+r1
+xLd
+x/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./../output/mac/debug/MultiArrowTool.aip/Contents/MacOS/MultiArrowTool
+xnormal
+xx86_64
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection150"Link /Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./../output/mac/debug/MultiArrowTool.aip/Contents/MacOS/MultiArrowTool2ae4c6508e33ba41^b53641518e33ba41^---0#0#0#--1034"Ld ./../output/mac/debug/MultiArrowTool.aip/Contents/MacOS/MultiArrowTool normal x86_64    cd "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    "/Applications/Xcode 4.5.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++" -arch x86_64 -bundle -isysroot "/Applications/Xcode 4.5.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk" "-L/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../output/mac/debug" "-F/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../output/mac/debug" -filelist "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/Objects-normal/x86_64/MultiArrowTool.LinkFileList" -mmacosx-version-min=10.6 -dead_strip -o "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./../output/mac/debug/MultiArrowTool.aip/Contents/MacOS/MultiArrowTool"36"D954401C-D447-44C4-AF69-74C0733B842A-
+
+CPhaseScriptExecution "Run Script" "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/Script-3257372F17F088E20068501E.sh"
+s439586385.255429
+e439586385.379251
+r1
+xPhaseScriptExecution
+xRun Script
+x/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/Script-3257372F17F088E20068501E.sh
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Run custom shell script 'Run Script'50ff41518e33ba41^ad1561518e33ba41^---0#0#0#--21766"PhaseScriptExecution "Run Script" ./MultiArrowTool.build/Default/MultiArrowTool.build/Script-3257372F17F088E20068501E.sh    cd "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool"    setenv ACTION build    setenv AI_CONFIGURATION debug    setenv AI_LOCALE en_US    setenv AI_PLATFORM xcode    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER Ben    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS x86_64    setenv ARCHS_STANDARD_32_64_BIT "x86_64 i386"    setenv ARCHS_STANDARD_32_BIT i386    setenv ARCHS_STANDARD_64_BIT x86_64    setenv AVAILABLE_PLATFORMS "iphonesimulator macosx iphoneos"    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./../output/mac/debug"    setenv BUILD_ROOT "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./../output/mac/debug"    setenv BUILD_STYLE     setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./../output/mac/debug"    setenv CACHE_ROOT /var/folders/xm/43w9p3bd6bbb2njytb7s03nc0000gn/C/com.apple.Xcode.501    setenv CCHROOT /var/folders/xm/43w9p3bd6bbb2njytb7s03nc0000gn/C/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLASS_FILE_DIR "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/JavaClasses"    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./../output/mac/debug/MultiArrowTool.aip"    setenv CODE_SIGNING_ALLOWED YES    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/xm/43w9p3bd6bbb2njytb7s03nc0000gn/C/com.apple.Xcode.501/CompositeSDKs    setenv CONFIGURATION debug    setenv CONFIGURATION_BUILD_DIR "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./../output/mac/debug"    setenv CONFIGURATION_TEMP_DIR "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default"    setenv CONTENTS_FOLDER_PATH MultiArrowTool.aip/Contents    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP YES    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH x86_64    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING YES    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf    setenv DEFAULT_COMPILER com.apple.compilers.llvm.clang.1_0    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/DerivedSources"    setenv DERIVED_FILE_DIR "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/DerivedSources"    setenv DERIVED_SOURCES_DIR "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/DerivedSources"    setenv DEVELOPER_APPLICATIONS_DIR "/Applications/Xcode 4.5.2.app/Contents/Developer/Applications"    setenv DEVELOPER_BIN_DIR "/Applications/Xcode 4.5.2.app/Contents/Developer/usr/bin"    setenv DEVELOPER_DIR "/Applications/Xcode 4.5.2.app/Contents/Developer"    setenv DEVELOPER_FRAMEWORKS_DIR "/Applications/Xcode 4.5.2.app/Contents/Developer/Library/Frameworks"    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Applications/Xcode 4.5.2.app/Contents/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR "/Applications/Xcode 4.5.2.app/Contents/Developer/Library"    setenv DEVELOPER_SDK_DIR "/Applications/Xcode 4.5.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs"    setenv DEVELOPER_TOOLS_DIR "/Applications/Xcode 4.5.2.app/Contents/Developer/Tools"    setenv DEVELOPER_USR_DIR "/Applications/Xcode 4.5.2.app/Contents/Developer/usr"    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH MultiArrowTool.aip/Contents/Resources/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/MultiArrowTool.dst    setenv DT_TOOLCHAIN_DIR "/Applications/Xcode 4.5.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain"    setenv DWARF_DSYM_FILE_NAME MultiArrowTool.aip.dSYM    setenv DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT NO    setenv DWARF_DSYM_FOLDER_PATH "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./../output/mac/debug"    setenv EMBEDDED_PROFILE_NAME embedded.provisionprofile    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".DS_Store .svn .git .hg CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH MultiArrowTool.aip/Contents/Executables    setenv EXECUTABLE_FOLDER_PATH MultiArrowTool.aip/Contents/MacOS    setenv EXECUTABLE_NAME MultiArrowTool    setenv EXECUTABLE_PATH MultiArrowTool.aip/Contents/MacOS/MultiArrowTool    setenv FILE_LIST "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/Objects/LinkFileList"    setenv FIXED_FILES_DIR "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/FixedFiles"    setenv FRAMEWORKS_FOLDER_PATH MultiArrowTool.aip/Contents/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./../output/mac/debug\" "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME MultiArrowTool.aip    setenv GCC3_VERSION 3.3    setenv GCC_DEBUGGING_SYMBOLS used    setenv GCC_INCREASE_PRECOMPILED_HEADER_SHARING YES    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_INPUT_FILETYPE sourcecode.cpp.cpp    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER ./../common/includes/IllustratorSDKdebug.pch    setenv GCC_SYMBOLS_PRIVATE_EXTERN YES    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION com.apple.compilers.llvm.clang.1_0    setenv GCC_VERSION_IDENTIFIER com_apple_compilers_llvm_clang_1_0    setenv GCC_WARN_ABOUT_MISSING_PROTOTYPES NO    setenv GCC_WARN_UNKNOWN_PRAGMAS YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./../output/mac/debug/include\" ./../../illustratorapi/** /Developer/Headers/FlatCarbon/** ./** ./../common/**"    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE ../common/mac/Info.plist    setenv INFOPLIST_OUTPUT_FORMAT same-as-input    setenv INFOPLIST_PATH MultiArrowTool.aip/Contents/Info.plist    setenv INFOPLIST_PREFIX_HEADER ../common/includes/SDKDef.h    setenv INFOPLIST_PREPROCESS YES    setenv INFOSTRINGS_PATH MultiArrowTool.aip/Contents/Resources/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /tmp/MultiArrowTool.dst    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER Ben    setenv INSTALL_ROOT /tmp/MultiArrowTool.dst    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH MultiArrowTool.aip/Contents/Resources/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/MultiArrowTool-LinkMap-normal-x86_64.txt"    setenv LD_NO_PIE NO    setenv LEGACY_DEVELOPER_DIR "/Applications/Xcode 4.5.2.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer"    setenv LEX lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./../output/mac/debug\" "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_x86_64 "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/Objects-normal/x86_64/MultiArrowTool.LinkFileList"    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH MultiArrowTool.aip/Contents/Resources/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_bundle    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv MAC_OS_X_PRODUCT_BUILD_VERSION 13E28    setenv MAC_OS_X_VERSION_ACTUAL 1094    setenv MAC_OS_X_VERSION_MAJOR 1090    setenv MAC_OS_X_VERSION_MINOR 0904    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJECT_FILE_DIR "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/Objects"    setenv OBJECT_FILE_DIR_normal "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/Objects-normal"    setenv OBJROOT "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/."    setenv ONLY_ACTIVE_ARCH NO    setenv ONLY_LINK_ESSENTIAL_SYMBOLS YES    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv PACKAGE_TYPE com.apple.package-type.wrapper    setenv PASCAL_STRINGS YES    setenv PATH "/Applications/Xcode 4.5.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode 4.5.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode 4.5.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/bin:/Applications/Xcode 4.5.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/local/bin:/Applications/Xcode 4.5.2.app/Contents/Developer/Platforms/MacOSX.platform/usr/bin:/Applications/Xcode 4.5.2.app/Contents/Developer/Platforms/MacOSX.platform/usr/local/bin:/Applications/Xcode 4.5.2.app/Contents/Developer/usr/bin:/Applications/Xcode 4.5.2.app/Contents/Developer/usr/local/bin:/Applications/Xcode 4.5.2.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Applications/Xcode 4.5.2.app/Contents/Developer/Headers /Applications/Xcode 4.5.2.app/Contents/Developer/SDKs /Applications/Xcode 4.5.2.app/Contents/Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH MultiArrowTool.aip/Contents/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS c++    setenv PKGINFO_FILE_PATH "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/PkgInfo"    setenv PKGINFO_PATH MultiArrowTool.aip/Contents/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR "/Applications/Xcode 4.5.2.app/Contents/Developer/Applications"    setenv PLATFORM_DEVELOPER_BIN_DIR "/Applications/Xcode 4.5.2.app/Contents/Developer/usr/bin"    setenv PLATFORM_DEVELOPER_LIBRARY_DIR "/Applications/Xcode 4.5.2.app/Contents/Developer/Library"    setenv PLATFORM_DEVELOPER_SDK_DIR "/Applications/Xcode 4.5.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs"    setenv PLATFORM_DEVELOPER_TOOLS_DIR "/Applications/Xcode 4.5.2.app/Contents/Developer/Tools"    setenv PLATFORM_DEVELOPER_USR_DIR "/Applications/Xcode 4.5.2.app/Contents/Developer/usr"    setenv PLATFORM_DIR "/Applications/Xcode 4.5.2.app/Contents/Developer/Platforms/MacOSX.platform"    setenv PLATFORM_NAME macosx    setenv PLATFORM_PREFERRED_ARCH x86_64    setenv PLATFORM_PRODUCT_BUILD_VERSION 4G2008a    setenv PLIST_FILE_OUTPUT_FORMAT same-as-input    setenv PLUGINS_FOLDER_PATH MultiArrowTool.aip/Contents/PlugIns    setenv PREBINDING NO    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR NO    setenv PRECOMP_DESTINATION_DIR "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/PrefixHeaders"    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH MultiArrowTool.aip/Contents/PrivateHeaders    setenv PRODUCT_NAME MultiArrowTool    setenv PRODUCT_SETTINGS_PATH "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../common/mac/Info.plist"    setenv PRODUCT_TYPE com.apple.product-type.bundle    setenv PROFILING_CODE NO    setenv PROJECT MultiArrowTool    setenv PROJECTNAME MultiArrowTool    setenv PROJECT_DERIVED_FILE_DIR "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/DerivedSources"    setenv PROJECT_DIR "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool"    setenv PROJECT_FILE_PATH "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/MultiArrowTool.xcodeproj"    setenv PROJECT_NAME MultiArrowTool    setenv PROJECT_TEMP_DIR "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build"    setenv PUBLIC_HEADERS_FOLDER_PATH MultiArrowTool.aip/Contents/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_HG_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/ResourceManagerResources"    setenv REZ_OBJECTS_DIR "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/ResourceManagerResources/Objects"    setenv REZ_SEARCH_PATHS "\"/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./../output/mac/debug\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES YES    setenv SCRIPTS_FOLDER_PATH MultiArrowTool.aip/Contents/Resources/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT "/Applications/Xcode 4.5.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk"    setenv SDK_DIR "/Applications/Xcode 4.5.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk"    setenv SDK_NAME macosx10.8    setenv SDK_PRODUCT_BUILD_VERSION 12C37    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHARED_DERIVED_FILE_DIR "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./../output/mac/debug/DerivedSources"    setenv SHARED_FRAMEWORKS_FOLDER_PATH MultiArrowTool.aip/Contents/SharedFrameworks    setenv SHARED_PRECOMPS_DIR "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./../output/mac/sharedprecompiledheaders/debug"    setenv SHARED_SUPPORT_FOLDER_PATH MultiArrowTool.aip/Contents/SharedSupport    setenv SKIP_INSTALL NO    setenv SOURCE_ROOT "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool"    setenv SRCROOT "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool"    setenv STRINGS_FILE_OUTPUT_ENCODING UTF-16    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE non-global    setenv SUPPORTED_PLATFORMS macosx    setenv SYMROOT "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./../output/mac/debug"    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR "/Applications/Xcode 4.5.2.app/Contents/Developer/Applications"    setenv SYSTEM_DEVELOPER_BIN_DIR "/Applications/Xcode 4.5.2.app/Contents/Developer/usr/bin"    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Applications/Xcode 4.5.2.app/Contents/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR "/Applications/Xcode 4.5.2.app/Contents/Developer"    setenv SYSTEM_DEVELOPER_DOC_DIR "/Applications/Xcode 4.5.2.app/Contents/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Applications/Xcode 4.5.2.app/Contents/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Applications/Xcode 4.5.2.app/Contents/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Applications/Xcode 4.5.2.app/Contents/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Applications/Xcode 4.5.2.app/Contents/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS "/Applications/Xcode 4.5.2.app/Contents/Developer/Tools"    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Applications/Xcode 4.5.2.app/Contents/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Applications/Xcode 4.5.2.app/Contents/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR "/Applications/Xcode 4.5.2.app/Contents/Developer/usr"    setenv SYSTEM_DEVELOPER_UTILITIES_DIR "/Applications/Xcode 4.5.2.app/Contents/Developer/Applications/Utilities"    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETNAME MultiArrowTool    setenv TARGET_BUILD_DIR "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./../output/mac/debug"    setenv TARGET_NAME MultiArrowTool    setenv TARGET_TEMP_DIR "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build"    setenv TEMP_DIR "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build"    setenv TEMP_FILES_DIR "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build"    setenv TEMP_FILE_DIR "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build"    setenv TEMP_ROOT "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/."    setenv TEST_AFTER_BUILD NO    setenv TOOLCHAINS com.apple.dt.toolchain.XcodeDefault    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH MultiArrowTool.aip/Contents/Resources    setenv UNSTRIPPED_PRODUCT NO    setenv USER Ben    setenv USER_APPS_DIR /Users/Ben/Applications    setenv USER_LIBRARY_DIR /Users/Ben/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS "i386 x86_64"    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH MultiArrowTool.aip/Contents/version.plist    setenv VERSION_INFO_BUILDER Ben    setenv VERSION_INFO_FILE MultiArrowTool_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:MultiArrowTool  PROJECT:MultiArrowTool-\""    setenv WRAPPER_EXTENSION aip    setenv WRAPPER_NAME MultiArrowTool.aip    setenv WRAPPER_SUFFIX .aip    setenv XCODE_APP_SUPPORT_DIR "/Applications/Xcode 4.5.2.app/Contents/Developer/Library/Xcode"    setenv XCODE_PRODUCT_BUILD_VERSION 4G2008a    setenv XCODE_VERSION_ACTUAL 0452    setenv XCODE_VERSION_MAJOR 0400    setenv XCODE_VERSION_MINOR 0450    setenv YACC yacc    setenv ZERO_LINK NO    /bin/sh -c "\"/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/Script-3257372F17F088E20068501E.sh\""36"F32B3D6D-7471-4E4C-A15F-78ED1EA1ABEF-
+
+CPreprocess "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/Preprocessed-Info.plist" ../common/mac/Info.plist
+s439358776.483392
+e439358777.259429
+r1
+xPreprocess
+x/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/Preprocessed-Info.plist
+x../common/mac/Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Preprocess ./MultiArrowTool.build/Default/MultiArrowTool.build/Preprocessed-Info.plist ../common/mac/Info.plist170d89381530ba41^016a42391530ba41^---0#0#0#-19%DVTDocumentLocation2@123"file://localhost/Users/Ben/Desktop/Adobe%20Illustrator%20CC%202014%20SDK/samplecode/MultiArrowTool/../common/mac/Info.plist0000000000000000^643"Preprocess ./MultiArrowTool.build/Default/MultiArrowTool.build/Preprocessed-Info.plist ../common/mac/Info.plist    cd "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool"    "/Applications/Xcode 4.5.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc" -E -P -x c -Wno-trigraphs ../common/mac/Info.plist "-F/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./../output/mac/debug" -include ../common/includes/SDKDef.h -o "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/Preprocessed-Info.plist"36"5D93DA70-3CCC-4961-A1AE-EE50630545A9-
+
+CProcessInfoPlistFile "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./../output/mac/debug/MultiArrowTool.aip/Contents/Info.plist" "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/Preprocessed-Info.plist"
+s439358777.259559
+e439358777.287347
+r1
+xProcessInfoPlistFile
+x/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./../output/mac/debug/MultiArrowTool.aip/Contents/Info.plist
+x/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/Preprocessed-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection158"Process /Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/Preprocessed-Info.plistba8142391530ba41^508f49391530ba41^---0#0#0#-19%DVTDocumentLocation2@174"file://localhost/Users/Ben/Desktop/Adobe%20Illustrator%20CC%202014%20SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/Preprocessed-Info.plist0000000000000000^750"ProcessInfoPlistFile ./../output/mac/debug/MultiArrowTool.aip/Contents/Info.plist ./MultiArrowTool.build/Default/MultiArrowTool.build/Preprocessed-Info.plist    cd "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool"    builtin-infoPlistUtility "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/Preprocessed-Info.plist" -genpkginfo "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./../output/mac/debug/MultiArrowTool.aip/Contents/PkgInfo" -expandbuildsettings -platform macosx -o "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./../output/mac/debug/MultiArrowTool.aip/Contents/Info.plist"36"97A210CB-0A03-4934-85C5-696C991B73DF-
+
+CProcessPCH++ "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./../output/mac/sharedprecompiledheaders/debug/IllustratorSDKdebug-fufcvwkcfwlxifbncldonjkdafgp/IllustratorSDKdebug.pch.pth" ./../common/includes/IllustratorSDKdebug.pch normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s439358777.287661
+e439358779.663434
+r1
+xProcessPCH++
+x/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./../output/mac/sharedprecompiledheaders/debug/IllustratorSDKdebug-fufcvwkcfwlxifbncldonjkdafgp/IllustratorSDKdebug.pch.pth
+x./../common/includes/IllustratorSDKdebug.pch
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Precompile ./../common/includes/IllustratorSDKdebug.pch48bf49391530ba41^e0d6a93b1530ba41^---0#0#0#-19%DVTDocumentLocation2@143"file://localhost/Users/Ben/Desktop/Adobe%20Illustrator%20CC%202014%20SDK/samplecode/MultiArrowTool/./../common/includes/IllustratorSDKdebug.pch0000000000000000^3657"ProcessPCH++ ./../output/mac/sharedprecompiledheaders/debug/IllustratorSDKdebug-fufcvwkcfwlxifbncldonjkdafgp/IllustratorSDKdebug.pch.pth ./../common/includes/IllustratorSDKdebug.pch normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool"    setenv LANG en_US.US-ASCII    "/Applications/Xcode 4.5.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -x c++-header -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wunknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot "/Applications/Xcode 4.5.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk" -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.6 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/MultiArrowTool-generated-files.hmap" "-I/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/MultiArrowTool-own-target-headers.hmap" "-I/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/MultiArrowTool-all-target-headers.hmap" -iquote "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/MultiArrowTool-project-headers.hmap" "-I/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../output/mac/debug/include" -I../../illustratorapi -I../../illustratorapi/ate -I../../illustratorapi/illustrator -I../../illustratorapi/pica_sp -I../../illustratorapi/ate/legacy -I../../illustratorapi/ate/SloTextdomTypes -I../../illustratorapi/illustrator/actions -I/Developer/Headers/FlatCarbon -I -I../common -I../common/includes -I../common/mac -I../common/source -I../common/win -I../common/includes/legacy -I../common/source/legacy "-I/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/DerivedSources/x86_64" "-I/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/DerivedSources" "-F/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../output/mac/debug" --serialize-diagnostics "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./../output/mac/sharedprecompiledheaders/debug/IllustratorSDKdebug-fufcvwkcfwlxifbncldonjkdafgp/IllustratorSDKdebug.pch.dia" -c "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./../common/includes/IllustratorSDKdebug.pch" -o "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./../output/mac/sharedprecompiledheaders/debug/IllustratorSDKdebug-fufcvwkcfwlxifbncldonjkdafgp/IllustratorSDKdebug.pch.pth" -MMD -MT dependencies -MF "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./../output/mac/sharedprecompiledheaders/debug/IllustratorSDKdebug-fufcvwkcfwlxifbncldonjkdafgp/IllustratorSDKdebug.pch.d"36"3A2B1853-BE93-42E0-A8E4-A99F5584D1AC-
+
+CProcessPCH++ /Users/Ben/Library/Developer/Xcode/DerivedData/MultiArrowTool-bwafcsrnmubhukhhwufkdxjsvbmd/Index/PrecompiledHeaders/IllustratorSDKdebug-cgoeelpvfsiyihbhhwblryviuehu_ast/IllustratorSDKdebug.pch.pth ./../common/includes/IllustratorSDKdebug.pch normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CResMergerCollector "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/ResourceManagerResources/MultiArrowTool.rsrc"
+s439582218.906261
+e439582219.140459
+r1
+xResMergerCollector
+x/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/ResourceManagerResources/MultiArrowTool.rsrc
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection192"Merge resources into /Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/ResourceManagerResources/MultiArrowTool.rsrc2716e80a7e33ba41^edf4230b7e33ba41^---0#0#0#--826"ResMergerCollector ./MultiArrowTool.build/Default/MultiArrowTool.build/ResourceManagerResources/MultiArrowTool.rsrc    cd "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool"    "/Applications/Xcode 4.5.2.app/Contents/Developer/usr/bin/ResMerger" -dstIs DF "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/ResourceManagerResources/Objects/MultiArrowTool.rsrc" "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/ResourceManagerResources/Objects/MultiArrowTool2x.rsrc" -o "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/ResourceManagerResources/MultiArrowTool.rsrc"36"37C08911-A024-40B9-BEA8-EBA28576F53B-
+
+CResMergerProduct "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./../output/mac/debug/MultiArrowTool.aip/Contents/Resources/MultiArrowTool.rsrc"
+s439582219.140654
+e439582219.155649
+r1
+xResMergerProduct
+x/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./../output/mac/debug/MultiArrowTool.aip/Contents/Resources/MultiArrowTool.rsrc
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection175"Merge resources into /Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./../output/mac/debug/MultiArrowTool.aip/Contents/Resources/MultiArrowTool.rsrca111240b7e33ba41^38d8270b7e33ba41^---0#0#0#--598"ResMergerProduct ./../output/mac/debug/MultiArrowTool.aip/Contents/Resources/MultiArrowTool.rsrc    cd "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool"    "/Applications/Xcode 4.5.2.app/Contents/Developer/usr/bin/ResMerger" "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/ResourceManagerResources/MultiArrowTool.rsrc" -dstIs DF -o "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./../output/mac/debug/MultiArrowTool.aip/Contents/Resources/MultiArrowTool.rsrc"36"8114D6FC-A576-43B2-AF31-DD36863C162E-
+
+CRez "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/ResourceManagerResources/Objects/MultiArrowTool.rsrc" Resources/Mac/MultiArrowTool.r
+s439582217.959938
+e439582218.906106
+r1
+xRez
+x/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/ResourceManagerResources/Objects/MultiArrowTool.rsrc
+xResources/Mac/MultiArrowTool.r
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection34"Rez Resources/Mac/MultiArrowTool.r42d0f5097e33ba41^6ff6e70a7e33ba41^---0#0#0#-19%DVTDocumentLocation2@129"file://localhost/Users/Ben/Desktop/Adobe%20Illustrator%20CC%202014%20SDK/samplecode/MultiArrowTool/Resources/Mac/MultiArrowTool.r0000000000000000^1581"Rez ./MultiArrowTool.build/Default/MultiArrowTool.build/ResourceManagerResources/Objects/MultiArrowTool.rsrc Resources/Mac/MultiArrowTool.r    cd "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool"    "/Applications/Xcode 4.5.2.app/Contents/Developer/usr/bin/Rez" -o "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/ResourceManagerResources/Objects/MultiArrowTool.rsrc" -d SystemSevenOrLater=1 -useDF -script Roman -arch x86_64 -i "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../output/mac/debug" -i "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/Source" -i "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../output/mac/debug" -i "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../output/mac/debug/include" -i ../../illustratorapi -i ../../illustratorapi/ate -i ../../illustratorapi/illustrator -i ../../illustratorapi/pica_sp -i ../../illustratorapi/ate/legacy -i ../../illustratorapi/ate/SloTextdomTypes -i ../../illustratorapi/illustrator/actions -i /Developer/Headers/FlatCarbon -i "" -i ../common -i ../common/includes -i ../common/mac -i ../common/source -i ../common/win -i ../common/includes/legacy -i ../common/source/legacy -isysroot "/Applications/Xcode 4.5.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk" "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/Resources/Mac/MultiArrowTool.r"36"336AF195-093F-4F06-97F0-8D7E928DBFBC-
+
+CRez "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/ResourceManagerResources/Objects/MultiArrowTool2x.rsrc" Resources/Mac/MultiArrowTool2x.r
+s439582217.959943
+e439582218.185161
+r1
+xRez
+x/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/ResourceManagerResources/Objects/MultiArrowTool2x.rsrc
+xResources/Mac/MultiArrowTool2x.r
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Rez Resources/Mac/MultiArrowTool2x.r80d5f5097e33ba41^1f662f0a7e33ba41^---0#0#0#-19%DVTDocumentLocation2@131"file://localhost/Users/Ben/Desktop/Adobe%20Illustrator%20CC%202014%20SDK/samplecode/MultiArrowTool/Resources/Mac/MultiArrowTool2x.r0000000000000000^1589"Rez ./MultiArrowTool.build/Default/MultiArrowTool.build/ResourceManagerResources/Objects/MultiArrowTool2x.rsrc Resources/Mac/MultiArrowTool2x.r    cd "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool"    "/Applications/Xcode 4.5.2.app/Contents/Developer/usr/bin/Rez" -o "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./MultiArrowTool.build/Default/MultiArrowTool.build/ResourceManagerResources/Objects/MultiArrowTool2x.rsrc" -d SystemSevenOrLater=1 -useDF -script Roman -arch x86_64 -i "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../output/mac/debug" -i "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/Source" -i "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../output/mac/debug" -i "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/../output/mac/debug/include" -i ../../illustratorapi -i ../../illustratorapi/ate -i ../../illustratorapi/illustrator -i ../../illustratorapi/pica_sp -i ../../illustratorapi/ate/legacy -i ../../illustratorapi/ate/SloTextdomTypes -i ../../illustratorapi/illustrator/actions -i /Developer/Headers/FlatCarbon -i "" -i ../common -i ../common/includes -i ../common/mac -i ../common/source -i ../common/win -i ../common/includes/legacy -i ../common/source/legacy -isysroot "/Applications/Xcode 4.5.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk" "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/Resources/Mac/MultiArrowTool2x.r"36"069AE01C-8E23-44D8-8F5E-77D7BE06EB33-
+
+CTouch "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./../output/mac/debug/MultiArrowTool.aip"
+s439586385.379465
+e439586385.466694
+r1
+xTouch
+x/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./../output/mac/debug/MultiArrowTool.aip
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection121"Touch /Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./../output/mac/debug/MultiArrowTool.aipa83561518e33ba41^77a377518e33ba41^---0#0#0#--271"Touch ./../output/mac/debug/MultiArrowTool.aip    cd "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool"    /usr/bin/touch -c "/Users/Ben/Desktop/Adobe Illustrator CC 2014 SDK/samplecode/MultiArrowTool/./../output/mac/debug/MultiArrowTool.aip"36"0BFFE564-57EB-4AD0-87CB-B59AA1FE494A-
+

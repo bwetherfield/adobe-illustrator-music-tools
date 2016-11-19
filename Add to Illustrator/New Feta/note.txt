@@ -1,0 +1,8 @@
+These libraries are more precisely sized than the original set (now found in Old Feta).
+
+I have made a script that creates a 65% stave. I may update it. Need to check whether the lines should be thinner in a smaller stave/ related questions.
+
+At the time of writing, ../Default\ Page,\ Brushes/print.ai may need to be updated to
+reflect these changes…
+
+B

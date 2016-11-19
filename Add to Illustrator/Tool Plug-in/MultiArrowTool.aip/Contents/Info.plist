@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BuildMachineOSBuild</key>
+	<string>13E28</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleDisplayName</key>
+	<string>MultiArrowTool</string>
+	<key>CFBundleExecutable</key>
+	<string>MultiArrowTool</string>
+	<key>CFBundleGetInfoHTML</key>
+	<string>MultiArrowTool version 18 . 0 . 0 . 0, "Copyright 1987-2014 Adobe Systems Incorporated. All rights reserved."</string>
+	<key>CFBundleGetInfoString</key>
+	<string>MultiArrowTool version 18 . 0 . 0 . 0, "Copyright 1987-2014 Adobe Systems Incorporated. All rights reserved."</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.adobe.illustrator.plugins.MultiArrowTool</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>MultiArrowTool</string>
+	<key>CFBundlePackageType</key>
+	<string>ARPI</string>
+	<key>CFBundleShortVersionString</key>
+	<string>MultiArrowTool version 18 . 0 . 0 . 0</string>
+	<key>CFBundleSignature</key>
+	<string>ART5</string>
+	<key>CFBundleVersion</key>
+	<string>18 . 0 . 0 . 0</string>
+	<key>CSResourcesFileMapped</key>
+	<true/>
+	<key>DTCompiler</key>
+	<string>com.apple.compilers.llvm.clang.1_0</string>
+	<key>DTPlatformBuild</key>
+	<string>4G2008a</string>
+	<key>DTPlatformVersion</key>
+	<string>GM</string>
+	<key>DTSDKBuild</key>
+	<string>12C37</string>
+	<key>DTSDKName</key>
+	<string>macosx10.8</string>
+	<key>DTXcode</key>
+	<string>0452</string>
+	<key>DTXcodeBuild</key>
+	<string>4G2008a</string>
+	<key>LSRequiresCarbon</key>
+	<true/>
+</dict>
+</plist>

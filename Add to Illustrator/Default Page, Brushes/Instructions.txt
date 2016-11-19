@@ -1,0 +1,40 @@
+SET UP INSTRUCTIONS FOR DEFAULT PAGE SET UP, including "Stafflines" BRUSH:
+
+copy the following into Terminal and press enter:
+defaults write com.apple.finder AppleShowAllFiles YES
+
+(or some equivalent to reach hidden folders in Finder)
+(to undo, just input
+defaults write com.apple.finder AppleShowAllFiles NO
+)
+
+Alt+Right Click Finder 
+	in the doc and select relaunch
+
+Now navigate to 
+~/Library/Application Support/Adobe/Adobe Illustrator 18/en_US/
+	New Document Profiles
+	
+And overwrite Print.ai with the Print.ai file included in this package. The only
+difference with the default is that it contains "Stafflines" in the brush library,
+which is necessary for the makeStave.app script (see scripts).
+
+
+ALTERNATIVELY (1):
+Each time you have a new musical document in Adobe Illustrator, select
+Window->Brush Libraries->Other Library... and choose StafflinesBrushLibrary.ai
+(included herein), then simply click the "Stafflines" brush (it looks like
+five parallel lines, and its name appears if you hover above it with the 
+mouse)
+
+
+OR (2): you can add "Stafflines" to Print.ai in a similar way, and save and quit.
+
+
+SET UP INSTRUCTIONS FOR DEFAULT ACTIONS, including "Outline Stroke" and "Scale":
+Overwrite Default_Actions.aia in <Adobe Illustrator>/Presets/en_US/Default_Actions.aia.
+The four additional (simple) Actions are triggered optionally in some versions
+of some of the scripts included with this package (see Scripts for details).
+
+
+AND SIMILARLY FOR THE HAIRPINS LIBRARY…

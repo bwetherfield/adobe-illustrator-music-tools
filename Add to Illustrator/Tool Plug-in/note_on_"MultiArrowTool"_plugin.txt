@@ -1,0 +1,25 @@
+NOTE ON "MULTIARROWTOOL" PLUGIN:
+
+This tool has been edited to produce musical "hairpin" symbols (crescendo, diminuendo, 
+flared crescendo and flared diminuendo) instead of arrows. The hand tool symbol on the
+tools panel of Adobe Illustrator will still display the original icons (an arrow or a
+line depending on which tool is selected), but each handle will produce one of the
+hairpin symbols respectively.
+
+NB: although source files have been included, they will probably not be buildable
+unless the full Adobe Illustrator CC SDK (with includes) is installed. To add the
+plugin to Adobe Illustrator, follow the instructions in the top level “documentation.txt"
+file included with this package. It will require Xcode 4.5.2 to be built because of 
+compatibility issues.
+
+
+
+Additional feature:
+Select any hairpin that has been placed using the tool and run Niente in the Default
+Actions of the Actions Panel of Illustrator (provided that the Default_Actions.aia 
+file in Add to Illustrator/Default Page, Brushes has been added to your copy of 
+Illustrator in line with the Instructions.txt in the same folder. The Action will 
+add a “niente” circle to the point/ tip of the hairpin, which is conventionally used
+to indicate that a sound comes from or goes to nothing. See ExtraMusicNotation.pdf
+in folder: Lilypond source files and PDFs/UsedInDevelopmentPhase for examples.
+The design of the hairpins has been closely modeled on Lilypond examples.
