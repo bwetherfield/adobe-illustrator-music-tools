@@ -5,7 +5,3 @@ run. If a pop-up comes up  (on attempted execution) that says one of these .app 
 not have "assistive access", you will need to navigate to System Preferences -> Security & 
 Privacy, select Privacy and Accessibility and select the appropriate checkbox. If problems
 persist, consider using scripts in the No Permission Needed folder of this package.
-
-Usage: on the mac, I can press command+spacebar and start typing the abbreviation at the
-start of each app/script name. That way activating the relevant script is pretty instant
-even when Illustrator is running.
