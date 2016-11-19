@@ -38,5 +38,3 @@ subfolder.
 
 Head to the Scripts folder next for more music notation functionality. Read the .txt file
 for details.
-
-Peruse source files and music notation PDFs in the other two folders to taste.
