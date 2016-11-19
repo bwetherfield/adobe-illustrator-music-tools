@@ -4,6 +4,9 @@
 ;; of which this file triggers are proportional to a staff size of 7mm
 ;; which is standard (and the size of staff I wanted to import)
 
+;; if you want to import these symbols into a symbol library, generate 
+;; the pdf with lilypond and then run the script called 
+;; takeSymbolsFromPDFBlankDoc (which will prompt you to open the pdf).
 
 #(set-global-staff-size 20)
 
