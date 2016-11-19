@@ -1,8 +1,0 @@
-The majority of the attached .ly files are Lilypond files that extract symbols in
-tabulated form from the font-table include (included). They use non-standard Lilypond
-markup syntax specific to tables. For an example of usual Lilypond markup, see 
-UsedInDevelopmentPhase->ExtraMusicNotation.ly . Standard Lilypond markup proved
-insufficient for isolating all of the Feta Font (Lilypond music) symbols in the
-development phase, but was useful for finding non-symbol objects such as hairpins
-(crescendi, diminuendi etc.) - this was the use of 
-UsedInDevelopmentPhase->ExtraMusicNotation.ly .
