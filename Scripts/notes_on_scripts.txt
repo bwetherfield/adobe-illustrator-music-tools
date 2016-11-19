@@ -2,7 +2,7 @@ To launch scripts within Illustrator, select File->Scripts->Other Script...
 or use keystroke fn+cmd+F12
 
 To add scripts to the default menu within File->Scripts:
-add the files to <Adobe Illustrator>/Presets/en_US/Scripts
+add the files to <Adobe Illustrator>/Presets/en_US/Scripts (or equivalent)
 
 
 .scpt files must be run from within Illustrator in this way, and .jsx files
@@ -32,7 +32,6 @@ The intended target for this script is one of the Lilypond Music Font PDF files 
 in this package in the Lilypond source files and PDFs folder. The script extracts all the
 symbols, puts them in the symbols panel of the Illustrator interface in a new blank 
 document. An easy way to set up your musical workspace.
-
 REQUIRES (No requirements)
 
 MultiExporterForParts.jsx
@@ -58,7 +57,6 @@ PNG). Changes made in the score will be reflected in file 2. Simply rerun the sc
 export to the same file location and update the link in the links menu of file 2 (if it 
 is not updated automatically).We have achieved “Dynamic Parts”, a feature prized by high
 end music notation software packages like Sibelius (other software is available…)!
-
 REQUIRES an open file with layers
 
 createCueSizeStave (various suffixes)
@@ -66,7 +64,6 @@ Often we will want certain staves on the page to be different sizes (perhaps bef
 exporting to another file - e.g. to hold parts - see MultiExporter above). Scaling 
 using the mouse distorts symbols and relationships. That’s where this script comes
 in: to keep a proportional and legible stave, merely smaller in size.
-
 REQUIRES a stave and its associated contents selected (see below for making stave)
 
 makeStave (various suffixes)
@@ -80,9 +77,26 @@ Simply draw a line or path within a document and ensure that it is selected. The
 running this script the line/ path will be transformed into a set of 5 encapsulated 
 stafflines of the right thickness and distance separating them (staves are 7mm from top
 to bottom, which is standard) in a sublayer within the original layer.
-
 REQUIRES a selected path/ line
 
+ALIGNMENT
+alignFlagToStem
+Select a flag (a symbol) and a stem (line object).
+
+alignNoteHeadToLeftOfStem
+Select a notehead (a symbol) and a stem (line object).
+
+alignNoteHeadToRightOfStem
+Select a notehead (a symbol) and a stem (line object).
+
+alignStemtoNoteHead
+ditto.
+
+bottomBeam
+Select two extremal stems (vertical line objects). Beam is created that connects their bases.
+
+topBeam
+Ditto for top beam.
+After you have placed a beam, press 'A' and select the corners to tweak.
 
 See the hand tool plug-in for further music notation functionality.
-
